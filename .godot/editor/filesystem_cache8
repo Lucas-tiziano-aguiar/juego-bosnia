@@ -1,19 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1693532052
-icon.svg::CompressedTexture2D::3041291516261427693::1693532014::1693532055::1::::<><>::
-node_2d.tscn::PackedScene::1568495182464366708::1693532014::0::1::::<><>::uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
-README.md::TextFile::-1::1693531204::0::1::::<><>::
-::res://art savior/::1693531675
-run2.png::CompressedTexture2D::1105866560929022181::1693531675::1693532055::1::::<><>::
-run3.png::CompressedTexture2D::7183286282511127870::1693531675::1693532055::1::::<><>::
-run4.png::CompressedTexture2D::6808439299968360602::1693531675::1693532055::1::::<><>::
-run5.png::CompressedTexture2D::8603154418586080585::1693531675::1693532055::1::::<><>::
-run6.png::CompressedTexture2D::6287950983959010546::1693531675::1693532055::1::::<><>::
-run7.png::CompressedTexture2D::3177439509136618730::1693531675::1693532055::1::::<><>::
-run8.png::CompressedTexture2D::7859332575676059675::1693531675::1693532055::1::::<><>::
-Sin título-1.png::CompressedTexture2D::4149243211085702197::1693531675::1693532055::1::::<><>::
-Sin título-2.png::CompressedTexture2D::4599035854847088273::1693531675::1693532055::1::::<><>::
-Walk.png::CompressedTexture2D::5888813365161060684::1693531675::1693532055::1::::<><>::
-::res://play/::1693531675
-mapa.tscn::PackedScene::7710169795761759958::1693531675::0::1::::<><>::
-player.tscn::PackedScene::8724607456899863447::1693531675::0::1::::<><>::uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://cp5t5pq4ntarc::::res://art savior/Walk.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
+::res://::1693602035
+icon.svg::CompressedTexture2D::3041291516261427693::1693601834::1693601834::1::::<><>::
+node_2d.tscn::PackedScene::1568495182464366708::1693601834::0::1::::<><>::uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
+README.md::TextFile::-1::1693601834::0::1::::<><>::
+::res://art savior/::1693601834
+run2.png::CompressedTexture2D::1105866560929022181::1693601834::1693601834::1::::<><>::
+run3.png::CompressedTexture2D::7183286282511127870::1693601834::1693601834::1::::<><>::
+run4.png::CompressedTexture2D::6808439299968360602::1693601834::1693601834::1::::<><>::
+run5.png::CompressedTexture2D::8603154418586080585::1693601834::1693601834::1::::<><>::
+run6.png::CompressedTexture2D::6287950983959010546::1693601834::1693601834::1::::<><>::
+run7.png::CompressedTexture2D::3177439509136618730::1693601834::1693601834::1::::<><>::
+run8.png::CompressedTexture2D::7859332575676059675::1693601834::1693601834::1::::<><>::
+Sin título-1.png::CompressedTexture2D::4149243211085702197::1693601834::1693601834::1::::<><>::
+Sin título-2.png::CompressedTexture2D::4599035854847088273::1693601834::1693601834::1::::<><>::
+Walk.png::CompressedTexture2D::5888813365161060684::1693601834::1693601834::1::::<><>::
+::res://play/::1693601834
+mapa.tscn::PackedScene::7710169795761759958::1693601834::0::1::::<><>::uid://dwkjalykqlw2r::::res://play/player.tscn
+player.gd::GDScript::-1::1693601834::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8724607456899863447::1693601834::0::1::::<><>::res://play/player.gd<>uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
