@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy0qa150406hf"
-path="res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-e8aad213359812099f08f77da0a25ec1.ctex"
+path="res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-51cab7c8525f77ec2188a0560a298969.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tanque_derecha/layers/b7e6388e-a4c8-4345-9af7-36368f3147b6/ccabfcde-f824-470e-a634-cb4dea7215ae.png"
-dest_files=["res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-e8aad213359812099f08f77da0a25ec1.ctex"]
+source_file="res://art savior/tanque_derecha/layers/b7e6388e-a4c8-4345-9af7-36368f3147b6/ccabfcde-f824-470e-a634-cb4dea7215ae.png"
+dest_files=["res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-51cab7c8525f77ec2188a0560a298969.ctex"]
 
 [params]
 
