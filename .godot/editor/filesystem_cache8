@@ -3,7 +3,8 @@ ea4bc82a6ad023ab7ee23ee620429895
 icon.svg::CompressedTexture2D::3041291516261427693::1693601834::1693601834::1::::<><>::
 node_2d.tscn::PackedScene::1568495182464366708::1693601834::0::1::::<><>::uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
 README.md::TextFile::-1::1693601834::0::1::::<><>::
-::res://art savior/::1693603875
+::res://art savior/::1693605058
+COUPON.png::CompressedTexture2D::9088087219961218321::1693605012::1693605096::1::::<><>::
 run2.png::CompressedTexture2D::1105866560929022181::1693601834::1693601834::1::::<><>::
 run3.png::CompressedTexture2D::7183286282511127870::1693601834::1693601834::1::::<><>::
 run4.png::CompressedTexture2D::6808439299968360602::1693601834::1693601834::1::::<><>::
@@ -15,7 +16,82 @@ Sin título-1.png::CompressedTexture2D::4149243211085702197::1693601834::1693601
 Sin título-2.png::CompressedTexture2D::4599035854847088273::1693601834::1693601834::1::::<><>::
 Soldier_1_Spritelist.png::CompressedTexture2D::8458452998180997168::1693603876::1693603885::1::::<><>::
 Walk.png::CompressedTexture2D::5888813365161060684::1693601834::1693601834::1::::<><>::
-::res://play/::1693603510
+::res://art savior/casita/::1693605015
+casitaChina+.png::CompressedTexture2D::5676951420931631428::1693605015::1693605095::1::::<><>::
+::res://art savior/PSD/::1693605013
+::res://art savior/puerta/::1693605015
+puerta1.png::CompressedTexture2D::7989128267602270845::1693605015::1693605095::1::::<><>::
+puerta2.png::CompressedTexture2D::3475016930084785855::1693605015::1693605095::1::::<><>::
+::res://art savior/Soldier_1/::1693605013
+Attack.png::CompressedTexture2D::7598734647097404419::1693605013::1693605095::1::::<><>::
+Dead.png::CompressedTexture2D::6315961681800007326::1693605013::1693605095::1::::<><>::
+Explosion.png::CompressedTexture2D::8761045083054562445::1693605013::1693605095::1::::<><>::
+Grenade.png::CompressedTexture2D::186557212784433869::1693605013::1693605095::1::::<><>::
+Hurt.png::CompressedTexture2D::3253095835076174760::1693605013::1693605095::1::::<><>::
+Idle.png::CompressedTexture2D::4200243019793851935::1693605013::1693605095::1::::<><>::
+Recharge.png::CompressedTexture2D::4998008139834899881::1693605013::1693605095::1::::<><>::
+Run.png::CompressedTexture2D::3079009278340103642::1693605013::1693605096::1::::<><>::
+Shot_1.png::CompressedTexture2D::3589442607575116346::1693605013::1693605095::1::::<><>::
+Shot_2.png::CompressedTexture2D::6383282840700529598::1693605013::1693605096::1::::<><>::
+Walk.png::CompressedTexture2D::4328783597930811643::1693605013::1693605096::1::::<><>::
+::res://art savior/Soldier_1/iddle/::1693605013
+Sin título-1.png::CompressedTexture2D::1635490229701906646::1693605013::1693605095::1::::<><>::
+Sin título-2.png::CompressedTexture2D::4626314026961037606::1693605013::1693605095::1::::<><>::
+::res://art savior/Soldier_1/run/::1693605014
+run2.png::CompressedTexture2D::2161151730297007317::1693605014::1693605095::1::::<><>::
+run3.png::CompressedTexture2D::7367833550572150825::1693605014::1693605095::1::::<><>::
+run4.png::CompressedTexture2D::827331750004332801::1693605014::1693605095::1::::<><>::
+run5.png::CompressedTexture2D::7979456631969819942::1693605014::1693605095::1::::<><>::
+run6.png::CompressedTexture2D::8550262024686136020::1693605014::1693605095::1::::<><>::
+run7.png::CompressedTexture2D::5781057410495469014::1693605014::1693605095::1::::<><>::
+run8.png::CompressedTexture2D::911442229820625587::1693605014::1693605095::1::::<><>::
+run9.png::CompressedTexture2D::3210822641622495761::1693605014::1693605095::1::::<><>::
+::res://art savior/Soldier_2/::1693605014
+Attack.png::CompressedTexture2D::8066965839092240712::1693605014::1693605096::1::::<><>::
+Dead.png::CompressedTexture2D::6078142437542325072::1693605014::1693605096::1::::<><>::
+Grenade.png::CompressedTexture2D::1316306108864570475::1693605014::1693605096::1::::<><>::
+Hurt.png::CompressedTexture2D::7076030887941311921::1693605014::1693605096::1::::<><>::
+Idle.png::CompressedTexture2D::4470834377151516880::1693605014::1693605094::1::::<><>::
+Recharge.png::CompressedTexture2D::8648331308329714843::1693605014::1693605094::1::::<><>::
+Run.png::CompressedTexture2D::967368848404541918::1693605014::1693605094::1::::<><>::
+Shot_1.png::CompressedTexture2D::3296955641686952556::1693605014::1693605094::1::::<><>::
+Shot_2.png::CompressedTexture2D::1590167185547872163::1693605014::1693605094::1::::<><>::
+Walk.png::CompressedTexture2D::5947390749755378175::1693605014::1693605094::1::::<><>::
+::res://art savior/Soldier_3/::1693605015
+Attacck.png::CompressedTexture2D::951739253751263907::1693605014::1693605094::1::::<><>::
+Dead.png::CompressedTexture2D::2530461366571058996::1693605014::1693605094::1::::<><>::
+Grenade.png::CompressedTexture2D::5344392441512996336::1693605014::1693605094::1::::<><>::
+Hurt.png::CompressedTexture2D::6007510666515131825::1693605014::1693605094::1::::<><>::
+Idle.png::CompressedTexture2D::1446243400439695514::1693605014::1693605094::1::::<><>::
+Recharge.png::CompressedTexture2D::5224497507138919478::1693605015::1693605094::1::::<><>::
+Run.png::CompressedTexture2D::6702876885002568524::1693605015::1693605094::1::::<><>::
+Shot_1.png::CompressedTexture2D::322897404851225363::1693605015::1693605094::1::::<><>::
+Shot_2.png::CompressedTexture2D::3852279558276361877::1693605015::1693605094::1::::<><>::
+Smoke.png::CompressedTexture2D::5166841953694728093::1693605015::1693605094::1::::<><>::
+Walk.png::CompressedTexture2D::4052493125943709992::1693605015::1693605094::1::::<><>::
+::res://art savior/Sprites-D-main/::1693605058
+::res://art savior/tanque_derecha/::1693605015
+1a6f99dd-4cab-4d28-befb-1979a6912daf.png::CompressedTexture2D::7697317569350992596::1693605015::1693605095::1::::<><>::
+2c0b624f-9279-4f5d-8c5f-98badfb42f0c.png::CompressedTexture2D::4141373724549082518::1693605015::1693605095::1::::<><>::
+38d02a7b-c48f-4fa1-afeb-73c99cf87145.png::CompressedTexture2D::1661021368891369024::1693605015::1693605095::1::::<><>::
+42c5f172-625b-479e-bcf0-6b3473b58791.png::CompressedTexture2D::6145422012168705979::1693605015::1693605095::1::::<><>::
+b7e6388e-a4c8-4345-9af7-36368f3147b6.png::CompressedTexture2D::793265967572679411::1693605015::1693605095::1::::<><>::
+f222eef0-0b23-4ac7-a119-d0823ddff093.png::CompressedTexture2D::431640253260420474::1693605015::1693605095::1::::<><>::
+::res://art savior/tanque_derecha/layers/::1693605016
+::res://art savior/tanque_derecha/layers/1a6f99dd-4cab-4d28-befb-1979a6912daf/::1693605015
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::5578045325477726162::1693605015::1693605094::1::::<><>::
+::res://art savior/tanque_derecha/layers/2c0b624f-9279-4f5d-8c5f-98badfb42f0c/::1693605015
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::4676551350249023138::1693605015::1693605094::1::::<><>::
+::res://art savior/tanque_derecha/layers/38d02a7b-c48f-4fa1-afeb-73c99cf87145/::1693605015
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::6122969603123419532::1693605015::1693605094::1::::<><>::
+::res://art savior/tanque_derecha/layers/42c5f172-625b-479e-bcf0-6b3473b58791/::1693605016
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::3148757183601489636::1693605016::1693605094::1::::<><>::
+::res://art savior/tanque_derecha/layers/b7e6388e-a4c8-4345-9af7-36368f3147b6/::1693605016
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8896376627254732455::1693605016::1693605094::1::::<><>::
+::res://art savior/tanque_derecha/layers/f222eef0-0b23-4ac7-a119-d0823ddff093/::1693605016
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8546964310658160966::1693605016::1693605095::1::::<><>::
+::res://play/::1693604859
 mapa.tscn::PackedScene::7710169795761759958::1693603510::0::1::::<><>::uid://dwkjalykqlw2r::::res://play/player.tscn
 player.gd::GDScript::-1::1693603032::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::8724607456899863447::1693603510::0::1::::<><>::res://play/player.gd<>uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
+animacion.tscn::PackedScene::55810119902254341::1693604859::0::1::::<><>::uid://cp5t5pq4ntarc::::res://art savior/Walk.png
