@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://s0vms55tqsyd"
+=======
+uid="uid://da7v7fyopyt2l"
+>>>>>>> 3428f617928fe97972c9fae7657366a6aac6ac18
 path="res://.godot/imported/Grenade.png-2288c7bb692f2ad05f8718fde90e3baf.ctex"
 metadata={
 "vram_texture": false
