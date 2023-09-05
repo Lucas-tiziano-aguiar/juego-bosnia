@@ -99,7 +99,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"run",
-"speed": 12.0
+"speed": 5.0
 }, {
 "frames": [],
 "loop": true,
@@ -108,7 +108,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_btypn"]
-radius = 27.8259
+radius = 22.0
 height = 77.7841
 
 [sub_resource type="Animation" id="Animation_xh7r3"]
@@ -127,18 +127,18 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(67, 52)
 script = ExtResource("1_4eyxn")
+metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(5.27703, 5.51883)
 scale = Vector2(1.05552, 1.01458)
 sprite_frames = SubResource("SpriteFrames_50hf3")
-animation = &"iddle"
-frame = 3
-frame_progress = 0.0750542
+animation = &"run"
+frame_progress = 0.529744
+speed_scale = 0.8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-3, 7)
-rotation = 0.322886
+position = Vector2(4, 7)
 shape = SubResource("CapsuleShape2D_btypn")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

@@ -8,19 +8,18 @@ const jump = 250
 
 func _physics_process(delta):
 	direccion = Input.get_axis("left","right")
-	if Input.is_action_pressed("sprint"):
-		speed = 200
-	else:
-	
-		speed = 120
-	
 	velocity.x = direccion * speed
 	velocity.y = velocity.y + gravity
 	if direccion != 0:
 		anim.play("caminar")
-	
 	else:
 		anim.play("iddle")
+		if Input.is_action_pressed("sprint"):
+			anim.play("run")
+			speed = 200
+		else:
+			anim.play("caminar");
+			speed = 120
 	if direccion > 0:
 		anim.flip_h= false
 	else:
