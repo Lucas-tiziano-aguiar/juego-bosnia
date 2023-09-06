@@ -17,3 +17,7 @@ scale = Vector2(1, 1.2)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(112.308, -254.238)
 shape = SubResource("RectangleShape2D_tbyjy")
+
+[node name="Fondo" type="ParallaxBackground" parent="."]
+
+[node name="Fondo1" type="ParallaxLayer" parent="Fondo"]
