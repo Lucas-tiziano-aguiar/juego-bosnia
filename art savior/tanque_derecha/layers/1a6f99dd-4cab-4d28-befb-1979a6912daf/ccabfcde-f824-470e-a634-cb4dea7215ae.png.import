@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://clqbud3g5b13k"
+path="res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-780a608e1b77f6c833efd0389e7ad5d6.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://art savior/tanque_derecha/layers/1a6f99dd-4cab-4d28-befb-1979a6912daf/ccabfcde-f824-470e-a634-cb4dea7215ae.png"
+dest_files=["res://.godot/imported/ccabfcde-f824-470e-a634-cb4dea7215ae.png-780a608e1b77f6c833efd0389e7ad5d6.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1
