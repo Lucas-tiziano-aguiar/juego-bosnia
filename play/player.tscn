@@ -144,3 +144,5 @@ shape = SubResource("CapsuleShape2D_btypn")
 libraries = {
 "": SubResource("AnimationLibrary_v12d5")
 }
+
+[node name="Camera2D" type="Camera2D" parent="."]
