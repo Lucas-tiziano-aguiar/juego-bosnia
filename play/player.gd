@@ -19,7 +19,6 @@ func _physics_process(delta):
 			speed = 120
 	else:
 		anim.play("iddle")
-
 	if direccion > 0:
 		anim.flip_h= false
 	else:
