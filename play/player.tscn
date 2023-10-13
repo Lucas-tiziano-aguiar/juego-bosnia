@@ -108,8 +108,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_btypn"]
-radius = 22.0
-height = 77.7841
+radius = 15.0
+height = 68.0
 
 [sub_resource type="Animation" id="Animation_xh7r3"]
 length = 0.001
@@ -125,7 +125,7 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(67, 52)
+position = Vector2(66, 52)
 script = ExtResource("1_4eyxn")
 metadata/_edit_group_ = true
 
@@ -133,11 +133,11 @@ metadata/_edit_group_ = true
 position = Vector2(5.27703, 5.51883)
 scale = Vector2(1.05552, 1.01458)
 sprite_frames = SubResource("SpriteFrames_50hf3")
-animation = &"run"
+animation = &"iddle"
 speed_scale = 1.5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, 7)
+position = Vector2(-2, 6)
 shape = SubResource("CapsuleShape2D_btypn")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
