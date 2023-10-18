@@ -1,4 +1,3 @@
-res://play/mapa.tscn
 res://play/player.tscn
-res://play/humano.gd
 res://play/player.gd
+res://play/mapa.tscn

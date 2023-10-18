@@ -1,215 +1,385 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696552296
-icon.svg::CompressedTexture2D::3041291516261427693::1693601834::1693601834::1::::<><>::
-node_2d.tscn::PackedScene::1568495182464366708::1693601834::0::1::::<><>::uid://p0xpws62b8rh
-README.md::TextFile::-1::1693601834::0::1::::<><>::
-::res://art savior/::1695676317
-COUPON.png::CompressedTexture2D::8709249740292522992::1693605012::1693868216::1::::<><>::
-run2.png::CompressedTexture2D::1105866560929022181::1693601834::1693601834::1::::<><>::
-run3.png::CompressedTexture2D::7183286282511127870::1693601834::1693601834::1::::<><>::
-run4.png::CompressedTexture2D::6808439299968360602::1693601834::1693601834::1::::<><>::
-run5.png::CompressedTexture2D::8603154418586080585::1693601834::1693601834::1::::<><>::
-run6.png::CompressedTexture2D::6287950983959010546::1693601834::1693601834::1::::<><>::
-run7.png::CompressedTexture2D::3177439509136618730::1693601834::1693601834::1::::<><>::
-run8.png::CompressedTexture2D::7859332575676059675::1693601834::1693601834::1::::<><>::
-Sin título-1.png::CompressedTexture2D::4149243211085702197::1693601834::1693601834::1::::<><>::
-Sin título-2.png::CompressedTexture2D::4599035854847088273::1693601834::1693601834::1::::<><>::
-Soldier_1_Spritelist.png::CompressedTexture2D::8458452998180997168::1693603876::1693603885::1::::<><>::
-Walk.png::CompressedTexture2D::5888813365161060684::1693601834::1693601834::1::::<><>::
-::res://art savior/casita/::1693868216
-casitaChina+.png::CompressedTexture2D::6501045782125722898::1693605015::1693868216::1::::<><>::
-::res://art savior/Platformer - desert/::1695676317
-::res://art savior/Platformer - desert/Background/::1695676317
-BG-mountains.png::CompressedTexture2D::6810263335167442988::1695676317::1695676317::1::::<><>::
-BG-ruins.png::CompressedTexture2D::7953667707023130810::1695676317::1695676317::1::::<><>::
-BG-sky.png::CompressedTexture2D::3313357440480903356::1695676317::1695676317::1::::<><>::
-BG-sun.png::CompressedTexture2D::6758001766569425336::1695676317::1695676317::1::::<><>::
-::res://art savior/Platformer - desert/props/::1695676317
-rocks1.png::CompressedTexture2D::4776511681520043019::1695676317::1695676317::1::::<><>::
-rocks2.png::CompressedTexture2D::4304434641041313795::1695676317::1695676317::1::::<><>::
-rocks3.png::CompressedTexture2D::6725007692767221906::1695676317::1695676317::1::::<><>::
-rocks4.png::CompressedTexture2D::2182797158651693714::1695676317::1695676317::1::::<><>::
-rocks5.png::CompressedTexture2D::6543950092692019297::1695676317::1695676317::1::::<><>::
-rocks6.png::CompressedTexture2D::1488899141093008204::1695676317::1695676317::1::::<><>::
-tree01.png::CompressedTexture2D::7851530433949714096::1695676317::1695676317::1::::<><>::
-tree02.png::CompressedTexture2D::2723633668351963355::1695676317::1695676317::1::::<><>::
-tree03.png::CompressedTexture2D::6466943906008146616::1695676317::1695676317::1::::<><>::
-tree04.png::CompressedTexture2D::8403689647605636089::1695676317::1695676317::1::::<><>::
-::res://art savior/Platformer - desert/showcase/::1695676317
-plat_show1.png::CompressedTexture2D::6216778245267264903::1695676317::1695676317::1::::<><>::
-plat_show2.png::CompressedTexture2D::8376974943653859987::1695676317::1695676317::1::::<><>::
-plat_show3.png::CompressedTexture2D::711731520283105286::1695676317::1695676317::1::::<><>::
-plat_show4.png::CompressedTexture2D::4516153240593097458::1695676317::1695676317::1::::<><>::
-plat_show5.png::CompressedTexture2D::274907810081478570::1695676317::1695676317::1::::<><>::
-::res://art savior/Platformer - desert/Tileset/::1695676317
-00Atlas.png::CompressedTexture2D::5233069717741834084::1695676317::1695676317::1::::<><>::
-bridge1.png::CompressedTexture2D::6686619240664686461::1695676317::1695676317::1::::<><>::
-bridge2.png::CompressedTexture2D::3109543801205445172::1695676317::1695676317::1::::<><>::
-bridge3.png::CompressedTexture2D::5253372644832143020::1695676317::1695676317::1::::<><>::
-bridge4.png::CompressedTexture2D::2787508490057255742::1695676317::1695676317::1::::<><>::
-bridge5.png::CompressedTexture2D::5731016726322936784::1695676317::1695676317::1::::<><>::
-bridge6.png::CompressedTexture2D::6707493526921975405::1695676317::1695676317::1::::<><>::
-bridge7.png::CompressedTexture2D::3070551391729535837::1695676317::1695676317::1::::<><>::
-bridge8.png::CompressedTexture2D::4599718624676733090::1695676317::1695676317::1::::<><>::
-bridge9.png::CompressedTexture2D::1312413222199851941::1695676317::1695676317::1::::<><>::
-grass1.png::CompressedTexture2D::3543108628812580728::1695676317::1695676317::1::::<><>::
-grass2.png::CompressedTexture2D::2384266298148640719::1695676317::1695676317::1::::<><>::
-grass3.png::CompressedTexture2D::2361161961275967683::1695676317::1695676317::1::::<><>::
-grass4.png::CompressedTexture2D::3002268828131764557::1695676317::1695676317::1::::<><>::
-grass5.png::CompressedTexture2D::2479027714110387749::1695676317::1695676317::1::::<><>::
-grass6.png::CompressedTexture2D::9174620127353629039::1695676317::1695676317::1::::<><>::
-grass7.png::CompressedTexture2D::1576845148528474313::1695676317::1695676317::1::::<><>::
-grass8.png::CompressedTexture2D::1456472740028017310::1695676317::1695676317::1::::<><>::
-grass9.png::CompressedTexture2D::745293183647537641::1695676317::1695676317::1::::<><>::
-grass10.png::CompressedTexture2D::1307610159697692993::1695676317::1695676317::1::::<><>::
-grass11.png::CompressedTexture2D::6796396791282400642::1695676317::1695676317::1::::<><>::
-grass12.png::CompressedTexture2D::7569726199533669631::1695676317::1695676317::1::::<><>::
-platforms1.png::CompressedTexture2D::1987966666568162202::1695676317::1695676317::1::::<><>::
-platforms2.png::CompressedTexture2D::7905387729335825459::1695676317::1695676317::1::::<><>::
-platforms3.png::CompressedTexture2D::3724881758088226014::1695676317::1695676317::1::::<><>::
-platforms4.png::CompressedTexture2D::1883746540658692632::1695676317::1695676317::1::::<><>::
-platforms5.png::CompressedTexture2D::6117116274276477679::1695676317::1695676317::1::::<><>::
-platforms6.png::CompressedTexture2D::3471940939394118871::1695676317::1695676317::1::::<><>::
-platforms7.png::CompressedTexture2D::8020269795915312492::1695676317::1695676317::1::::<><>::
-platforms8.png::CompressedTexture2D::3116588610006044241::1695676317::1695676317::1::::<><>::
-platforms9.png::CompressedTexture2D::5622502532299980448::1695676317::1695676317::1::::<><>::
-platforms10.png::CompressedTexture2D::8675609354325382178::1695676317::1695676317::1::::<><>::
-platforms11.png::CompressedTexture2D::2375011777847053601::1695676317::1695676317::1::::<><>::
-platforms12.png::CompressedTexture2D::3755159958545640138::1695676317::1695676317::1::::<><>::
-platvariation1.png::CompressedTexture2D::4054282882728314566::1695676317::1695676317::1::::<><>::
-platvariation2.png::CompressedTexture2D::4000686569313347810::1695676317::1695676317::1::::<><>::
-platvariation3.png::CompressedTexture2D::2312162893602285481::1695676317::1695676317::1::::<><>::
-platvariation4.png::CompressedTexture2D::6075739389407161937::1695676317::1695676317::1::::<><>::
-platvariation5.png::CompressedTexture2D::3251246102452274149::1695676317::1695676317::1::::<><>::
-platvariation6.png::CompressedTexture2D::8887078634635465370::1695676317::1695676317::1::::<><>::
-platvariation7.png::CompressedTexture2D::6836000221284358023::1695676317::1695676317::1::::<><>::
-platvariation8.png::CompressedTexture2D::894602496730198720::1695676317::1695676317::1::::<><>::
-platvariation9.png::CompressedTexture2D::4993601348348600190::1695676317::1695676317::1::::<><>::
-platvariation10.png::CompressedTexture2D::3223410176296089819::1695676317::1695676317::1::::<><>::
-platvariation11.png::CompressedTexture2D::3831518486197596258::1695676317::1695676317::1::::<><>::
-platvariation12.png::CompressedTexture2D::363452222424727258::1695676317::1695676317::1::::<><>::
-platvariation13.png::CompressedTexture2D::7018549681089621519::1695676317::1695676317::1::::<><>::
-platvariation14.png::CompressedTexture2D::5256518468566481049::1695676317::1695676317::1::::<><>::
-platvariation15.png::CompressedTexture2D::6593797334853781448::1695676317::1695676317::1::::<><>::
-platvariation16.png::CompressedTexture2D::1093471538109089966::1695676317::1695676317::1::::<><>::
-platvariation17.png::CompressedTexture2D::3336630894699855325::1695676317::1695676317::1::::<><>::
-platvariation18.png::CompressedTexture2D::6681521779922305153::1695676317::1695676317::1::::<><>::
-tileMain1.png::CompressedTexture2D::1154868797601321990::1695676317::1695676317::1::::<><>::
-tileMain2.png::CompressedTexture2D::3030729185686486838::1695676317::1695676317::1::::<><>::
-tileMain3.png::CompressedTexture2D::1896290706392482149::1695676317::1695676317::1::::<><>::
-tileMain4.png::CompressedTexture2D::2554762265242600797::1695676317::1695676317::1::::<><>::
-tileMain5.png::CompressedTexture2D::6546776297966531262::1695676317::1695676317::1::::<><>::
-tileMain6.png::CompressedTexture2D::5629489319777262931::1695676317::1695676317::1::::<><>::
-tileMain7.png::CompressedTexture2D::2677761849331323507::1695676317::1695676317::1::::<><>::
-tileMain8.png::CompressedTexture2D::3501302688413639245::1695676317::1695676317::1::::<><>::
-tileMain9.png::CompressedTexture2D::2667018058047739195::1695676317::1695676317::1::::<><>::
-tileMain10.png::CompressedTexture2D::6085009196830885793::1695676317::1695676317::1::::<><>::
-tileMain11.png::CompressedTexture2D::3920942921334505103::1695676317::1695676317::1::::<><>::
-tileMain12.png::CompressedTexture2D::7015392884312284044::1695676317::1695676317::1::::<><>::
-tileMain13.png::CompressedTexture2D::6834556343512691351::1695676317::1695676317::1::::<><>::
-tileMain14.png::CompressedTexture2D::8311361316520381940::1695676317::1695676317::1::::<><>::
-tileMain15.png::CompressedTexture2D::1559319026153002380::1695676317::1695676317::1::::<><>::
-tileMain16.png::CompressedTexture2D::6618645325062688831::1695676317::1695676317::1::::<><>::
-tileMain17.png::CompressedTexture2D::9036220957090184698::1695676317::1695676317::1::::<><>::
-tileMain18.png::CompressedTexture2D::7171683936881490240::1695676317::1695676317::1::::<><>::
-tileMain19.png::CompressedTexture2D::588089510956808214::1695676317::1695676317::1::::<><>::
-tileMain20.png::CompressedTexture2D::2180180879237585576::1695676317::1695676317::1::::<><>::
-tileMain21.png::CompressedTexture2D::5566015173710904207::1695676317::1695676317::1::::<><>::
-tileMain22.png::CompressedTexture2D::744695889610172716::1695676317::1695676317::1::::<><>::
-tileMain23.png::CompressedTexture2D::4578668590608937686::1695676317::1695676317::1::::<><>::
-tileMain24.png::CompressedTexture2D::830356919125312534::1695676317::1695676317::1::::<><>::
-tileMain25.png::CompressedTexture2D::1476169073992155935::1695676317::1695676317::1::::<><>::
-tileMain26.png::CompressedTexture2D::7283027577280961329::1695676317::1695676317::1::::<><>::
-tileMain27.png::CompressedTexture2D::5085725004340006933::1695676317::1695676317::1::::<><>::
-tileMain28.png::CompressedTexture2D::3274677708235453746::1695676317::1695676317::1::::<><>::
-tileMain29.png::CompressedTexture2D::2894861865314132036::1695676317::1695676317::1::::<><>::
-tileMain30.png::CompressedTexture2D::1666636893282270607::1695676317::1695676317::1::::<><>::
-tileMain31.png::CompressedTexture2D::2610270785960536578::1695676317::1695676317::1::::<><>::
-tileMain32.png::CompressedTexture2D::7368970693185729740::1695676317::1695676317::1::::<><>::
-water1.png::CompressedTexture2D::5256173558555629476::1695676317::1695676317::1::::<><>::
-water2.png::CompressedTexture2D::880780844217056216::1695676317::1695676317::1::::<><>::
-::res://art savior/PSD/::1693605013
-::res://art savior/puerta/::1693868216
-puerta1.png::CompressedTexture2D::5593538272410096585::1693605015::1693868216::1::::<><>::
-puerta2.png::CompressedTexture2D::1746934568067314330::1693605015::1693868216::1::::<><>::
-::res://art savior/Soldier_1/::1693868218
-Attack.png::CompressedTexture2D::4200280297214364918::1693605013::1693868217::1::::<><>::
-Dead.png::CompressedTexture2D::5939045868116159173::1693605013::1693868217::1::::<><>::
-Explosion.png::CompressedTexture2D::3264107272983337196::1693605013::1693868217::1::::<><>::
-Grenade.png::CompressedTexture2D::2731101172779043657::1693605013::1693868217::1::::<><>::
-Hurt.png::CompressedTexture2D::1496216931566164786::1693605013::1693868218::1::::<><>::
-Idle.png::CompressedTexture2D::7535574991238953046::1693605013::1693868218::1::::<><>::
-Recharge.png::CompressedTexture2D::398936895832096375::1693605013::1693868218::1::::<><>::
-Run.png::CompressedTexture2D::8553118176768858820::1693605013::1693868218::1::::<><>::
-Shot_1.png::CompressedTexture2D::7813664900140100015::1693605013::1693868218::1::::<><>::
-Shot_2.png::CompressedTexture2D::4859077762601792859::1693605013::1693868218::1::::<><>::
-Walk.png::CompressedTexture2D::5888654079246613504::1693605013::1693868212::1::::<><>::
-::res://art savior/Soldier_1/iddle/::1693868216
-Sin título-1.png::CompressedTexture2D::3603084087165124130::1693605013::1693868216::1::::<><>::
-Sin título-2.png::CompressedTexture2D::553214233608737474::1693605013::1693868216::1::::<><>::
-::res://art savior/Soldier_1/run/::1693868217
-run2.png::CompressedTexture2D::6327083662731826155::1693605014::1693868216::1::::<><>::
-run3.png::CompressedTexture2D::8465879711399456465::1693605014::1693868216::1::::<><>::
-run4.png::CompressedTexture2D::5133543999207233840::1693605014::1693868216::1::::<><>::
-run5.png::CompressedTexture2D::5337501403324983102::1693605014::1693868217::1::::<><>::
-run6.png::CompressedTexture2D::8898565588671205587::1693605014::1693868217::1::::<><>::
-run7.png::CompressedTexture2D::1192238834699043421::1693605014::1693868217::1::::<><>::
-run8.png::CompressedTexture2D::7848708910670360462::1693605014::1693868217::1::::<><>::
-run9.png::CompressedTexture2D::8236131486713034649::1693605014::1693868217::1::::<><>::
-Walk2.png::CompressedTexture2D::9064936653240359485::1693846021::1693846099::1::::<><>::
-Walk 1.png::CompressedTexture2D::3871749960211743453::1693845924::1693846099::1::::<><>::
-walk 3.png::CompressedTexture2D::7617802523092412597::1693845965::1693846099::1::::<><>::
-Walk 4.png::CompressedTexture2D::6675540119078470077::1693845992::1693846099::1::::<><>::
-Walk 5.png::CompressedTexture2D::6970453550015427287::1693846046::1693846099::1::::<><>::
-Walk 6.png::CompressedTexture2D::4004408550798430720::1693846069::1693846099::1::::<><>::
-Walk 7.png::CompressedTexture2D::6881656885315860053::1693846095::1693846099::1::::<><>::
-::res://art savior/Soldier_2/::1693868214
-Attack.png::CompressedTexture2D::7578648231740779078::1693605014::1693868212::1::::<><>::
-Dead.png::CompressedTexture2D::7189829360539614189::1693605014::1693868212::1::::<><>::
-Grenade.png::CompressedTexture2D::1308472151951285517::1693605014::1693868212::1::::<><>::
-Hurt.png::CompressedTexture2D::6176214585942617512::1693605014::1693868213::1::::<><>::
-Idle.png::CompressedTexture2D::8747107151541379938::1693605014::1693868213::1::::<><>::
-Recharge.png::CompressedTexture2D::5903522808546873174::1693605014::1693868213::1::::<><>::
-Run.png::CompressedTexture2D::5015698317120570001::1693605014::1693868213::1::::<><>::
-Shot_1.png::CompressedTexture2D::8960158566959507059::1693605014::1693868214::1::::<><>::
-Shot_2.png::CompressedTexture2D::4366263938539269875::1693605014::1693868214::1::::<><>::
-Walk.png::CompressedTexture2D::856780520654391026::1693605014::1693868214::1::::<><>::
-::res://art savior/Soldier_3/::1693868215
-Attacck.png::CompressedTexture2D::8610723460715692138::1693605014::1693868214::1::::<><>::
-Dead.png::CompressedTexture2D::5755266038291404584::1693605014::1693868214::1::::<><>::
-Grenade.png::CompressedTexture2D::8481369095117809074::1693605014::1693868214::1::::<><>::
-Hurt.png::CompressedTexture2D::5457393760259267682::1693605014::1693868214::1::::<><>::
-Idle.png::CompressedTexture2D::2346467543012631689::1693605014::1693868214::1::::<><>::
-Recharge.png::CompressedTexture2D::4899680136909741334::1693605015::1693868214::1::::<><>::
-Run.png::CompressedTexture2D::4657754768848462430::1693605015::1693868215::1::::<><>::
-Shot_1.png::CompressedTexture2D::5137720377373322197::1693605015::1693868215::1::::<><>::
-Shot_2.png::CompressedTexture2D::5419938065417985657::1693605015::1693868215::1::::<><>::
-Smoke.png::CompressedTexture2D::7327615218171717954::1693605015::1693868215::1::::<><>::
-Walk.png::CompressedTexture2D::3700754923934435468::1693605015::1693868215::1::::<><>::
-::res://art savior/Sprites-D-main/::1693605058
-::res://art savior/tanque_derecha/::1693605095
-1a6f99dd-4cab-4d28-befb-1979a6912daf.png::CompressedTexture2D::7697317569350992596::1693605015::1693605095::1::::<><>::
-2c0b624f-9279-4f5d-8c5f-98badfb42f0c.png::CompressedTexture2D::4141373724549082518::1693605015::1693605095::1::::<><>::
-38d02a7b-c48f-4fa1-afeb-73c99cf87145.png::CompressedTexture2D::1661021368891369024::1693605015::1693605095::1::::<><>::
-42c5f172-625b-479e-bcf0-6b3473b58791.png::CompressedTexture2D::6145422012168705979::1693605015::1693605095::1::::<><>::
-b7e6388e-a4c8-4345-9af7-36368f3147b6.png::CompressedTexture2D::793265967572679411::1693605015::1693605095::1::::<><>::
-f222eef0-0b23-4ac7-a119-d0823ddff093.png::CompressedTexture2D::431640253260420474::1693605015::1693605095::1::::<><>::
-::res://art savior/tanque_derecha/layers/::1693605016
-::res://art savior/tanque_derecha/layers/1a6f99dd-4cab-4d28-befb-1979a6912daf/::1693605094
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::5578045325477726162::1693605015::1693605094::1::::<><>::
-::res://art savior/tanque_derecha/layers/2c0b624f-9279-4f5d-8c5f-98badfb42f0c/::1693605094
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::4676551350249023138::1693605015::1693605094::1::::<><>::
-::res://art savior/tanque_derecha/layers/38d02a7b-c48f-4fa1-afeb-73c99cf87145/::1693605094
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::6122969603123419532::1693605015::1693605094::1::::<><>::
-::res://art savior/tanque_derecha/layers/42c5f172-625b-479e-bcf0-6b3473b58791/::1693605094
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::3148757183601489636::1693605016::1693605094::1::::<><>::
-::res://art savior/tanque_derecha/layers/b7e6388e-a4c8-4345-9af7-36368f3147b6/::1693605094
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8896376627254732455::1693605016::1693605094::1::::<><>::
-::res://art savior/tanque_derecha/layers/f222eef0-0b23-4ac7-a119-d0823ddff093/::1693605095
-ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8546964310658160966::1693605016::1693605095::1::::<><>::
-::res://play/::1696544261
-animacion.tscn::PackedScene::55810119902254341::1695676317::0::1::::<><>::uid://cp5t5pq4ntarc::::res://art savior/Walk.png
-enemy.tscn::PackedScene::3429755737988288170::1693867948::0::1::::<><>::res://play/player.gd<>uid://b0d6ouqck2mnt
-mapa.tscn::PackedScene::7710169795761759958::1696544261::0::1::::<><>::uid://dwkjalykqlw2r::::res://play/player.tscn<>uid://dlk20lk8vf3bq::::res://art savior/Platformer - desert/Background/BG-ruins.png
-player.gd::GDScript::-1::1695676317::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8724607456899863447::1696540347::0::1::::<><>::res://play/player.gd<>uid://p0xpws62b8rh::::res://art savior/run2.png<>uid://bvfrfkskgth5n::::res://art savior/Soldier_1/run/Walk 1.png<>uid://dalvw78ce5pvi::::res://art savior/run3.png<>uid://d2feggyeyeiwr::::res://art savior/Soldier_1/run/Walk2.png<>uid://c4acaavomq3oo::::res://art savior/run4.png<>uid://dgsedhlnjb230::::res://art savior/Soldier_1/run/walk 3.png<>uid://dutoxw735soxt::::res://art savior/run5.png<>uid://cvt6vs6x8wj4u::::res://art savior/run6.png<>uid://c2dxf2bp7m7b2::::res://art savior/Soldier_1/run/Walk 4.png<>uid://bljf717fbmdy5::::res://art savior/run7.png<>uid://c6ksl7ohk0lgx::::res://art savior/Soldier_1/run/Walk 5.png<>uid://bxb1a2qwnifp5::::res://art savior/Soldier_1/run/Walk 6.png<>uid://dj8ecardkg6mx::::res://art savior/run8.png<>uid://b0d6ouqck2mnt::::res://art savior/Sin título-1.png<>uid://c5br5bkief1hx::::res://art savior/Soldier_1/run/Walk 7.png<>uid://b6r2pit3yi554::::res://art savior/Sin título-2.png
+::res://::1697552336
+icon.svg::CompressedTexture2D::3041291516261427693::1696544570::1696544570::1::::<><>::
+node_2d.tscn::PackedScene::1568495182464366708::1696597457::0::1::::<><>::uid://p0xpws62b8rh
+README.md::TextFile::-1::1696544569::0::1::::<><>::
+::res://art savior/::1697501236
+COUPON.png::CompressedTexture2D::8709249740292522992::1696544569::1696544569::1::::<><>::
+run2.png::CompressedTexture2D::1105866560929022181::1696544570::1696544570::1::::<><>::
+run3.png::CompressedTexture2D::7183286282511127870::1696544570::1696544570::1::::<><>::
+run4.png::CompressedTexture2D::6808439299968360602::1696544570::1696544570::1::::<><>::
+run5.png::CompressedTexture2D::8603154418586080585::1696544570::1696544570::1::::<><>::
+run6.png::CompressedTexture2D::6287950983959010546::1696544570::1696544570::1::::<><>::
+run7.png::CompressedTexture2D::3177439509136618730::1696544570::1696544570::1::::<><>::
+run8.png::CompressedTexture2D::7859332575676059675::1696544570::1696544570::1::::<><>::
+Sin título-1.png::CompressedTexture2D::4149243211085702197::1696544570::1696544570::1::::<><>::
+Sin título-2.png::CompressedTexture2D::4599035854847088273::1696544570::1696544570::1::::<><>::
+Soldier_1_Spritelist.png::CompressedTexture2D::8458452998180997168::1696544570::1696544570::1::::<><>::
+Walk.png::CompressedTexture2D::5888813365161060684::1696544570::1696544570::1::::<><>::
+::res://art savior/casita/::1696544570
+casitaChina+.png::CompressedTexture2D::6501045782125722898::1696544570::1696544570::1::::<><>::
+::res://art savior/musica/::1697156074
+::res://art savior/Platformer - desert/::1696544570
+::res://art savior/Platformer - desert/Background/::1696544569
+BG-mountains.png::CompressedTexture2D::6810263335167442988::1696544569::1696544569::1::::<><>::
+BG-ruins.png::CompressedTexture2D::7953667707023130810::1696544569::1696544569::1::::<><>::
+BG-sky.png::CompressedTexture2D::3313357440480903356::1696544569::1696544569::1::::<><>::
+BG-sun.png::CompressedTexture2D::6758001766569425336::1696544569::1696544569::1::::<><>::
+::res://art savior/Platformer - desert/props/::1696544570
+rocks1.png::CompressedTexture2D::4776511681520043019::1696544570::1696544570::1::::<><>::
+rocks2.png::CompressedTexture2D::4304434641041313795::1696544570::1696544570::1::::<><>::
+rocks3.png::CompressedTexture2D::6725007692767221906::1696544570::1696544570::1::::<><>::
+rocks4.png::CompressedTexture2D::2182797158651693714::1696544570::1696544570::1::::<><>::
+rocks5.png::CompressedTexture2D::6543950092692019297::1696544570::1696544570::1::::<><>::
+rocks6.png::CompressedTexture2D::1488899141093008204::1696544570::1696544570::1::::<><>::
+tree01.png::CompressedTexture2D::7851530433949714096::1696544570::1696544570::1::::<><>::
+tree02.png::CompressedTexture2D::2723633668351963355::1696544570::1696544570::1::::<><>::
+tree03.png::CompressedTexture2D::6466943906008146616::1696544570::1696544570::1::::<><>::
+tree04.png::CompressedTexture2D::8403689647605636089::1696544570::1696544570::1::::<><>::
+::res://art savior/Platformer - desert/showcase/::1696544570
+plat_show1.png::CompressedTexture2D::6216778245267264903::1696544570::1696544570::1::::<><>::
+plat_show2.png::CompressedTexture2D::8376974943653859987::1696544570::1696544570::1::::<><>::
+plat_show3.png::CompressedTexture2D::711731520283105286::1696544570::1696544570::1::::<><>::
+plat_show4.png::CompressedTexture2D::4516153240593097458::1696544570::1696544570::1::::<><>::
+plat_show5.png::CompressedTexture2D::274907810081478570::1696544570::1696544570::1::::<><>::
+::res://art savior/Platformer - desert/Tileset/::1696544570
+00Atlas.png::CompressedTexture2D::5233069717741834084::1696544569::1696544569::1::::<><>::
+bridge1.png::CompressedTexture2D::6686619240664686461::1696544569::1696544569::1::::<><>::
+bridge2.png::CompressedTexture2D::3109543801205445172::1696544569::1696544569::1::::<><>::
+bridge3.png::CompressedTexture2D::5253372644832143020::1696544569::1696544569::1::::<><>::
+bridge4.png::CompressedTexture2D::2787508490057255742::1696544569::1696544569::1::::<><>::
+bridge5.png::CompressedTexture2D::5731016726322936784::1696544569::1696544569::1::::<><>::
+bridge6.png::CompressedTexture2D::6707493526921975405::1696544569::1696544569::1::::<><>::
+bridge7.png::CompressedTexture2D::3070551391729535837::1696544569::1696544569::1::::<><>::
+bridge8.png::CompressedTexture2D::4599718624676733090::1696544569::1696544569::1::::<><>::
+bridge9.png::CompressedTexture2D::1312413222199851941::1696544569::1696544569::1::::<><>::
+grass1.png::CompressedTexture2D::3543108628812580728::1696544569::1696544569::1::::<><>::
+grass2.png::CompressedTexture2D::2384266298148640719::1696544569::1696544569::1::::<><>::
+grass3.png::CompressedTexture2D::2361161961275967683::1696544569::1696544569::1::::<><>::
+grass4.png::CompressedTexture2D::3002268828131764557::1696544569::1696544569::1::::<><>::
+grass5.png::CompressedTexture2D::2479027714110387749::1696544569::1696544569::1::::<><>::
+grass6.png::CompressedTexture2D::9174620127353629039::1696544569::1696544569::1::::<><>::
+grass7.png::CompressedTexture2D::1576845148528474313::1696544569::1696544569::1::::<><>::
+grass8.png::CompressedTexture2D::1456472740028017310::1696544569::1696544569::1::::<><>::
+grass9.png::CompressedTexture2D::745293183647537641::1696544569::1696544569::1::::<><>::
+grass10.png::CompressedTexture2D::1307610159697692993::1696544569::1696544569::1::::<><>::
+grass11.png::CompressedTexture2D::6796396791282400642::1696544569::1696544569::1::::<><>::
+grass12.png::CompressedTexture2D::7569726199533669631::1696544569::1696544569::1::::<><>::
+platforms1.png::CompressedTexture2D::1987966666568162202::1696544569::1696544569::1::::<><>::
+platforms2.png::CompressedTexture2D::7905387729335825459::1696544569::1696544569::1::::<><>::
+platforms3.png::CompressedTexture2D::3724881758088226014::1696544569::1696544569::1::::<><>::
+platforms4.png::CompressedTexture2D::1883746540658692632::1696544569::1696544569::1::::<><>::
+platforms5.png::CompressedTexture2D::6117116274276477679::1696544569::1696544569::1::::<><>::
+platforms6.png::CompressedTexture2D::3471940939394118871::1696544569::1696544569::1::::<><>::
+platforms7.png::CompressedTexture2D::8020269795915312492::1696544569::1696544569::1::::<><>::
+platforms8.png::CompressedTexture2D::3116588610006044241::1696544569::1696544569::1::::<><>::
+platforms9.png::CompressedTexture2D::5622502532299980448::1696544569::1696544569::1::::<><>::
+platforms10.png::CompressedTexture2D::8675609354325382178::1696544569::1696544569::1::::<><>::
+platforms11.png::CompressedTexture2D::2375011777847053601::1696544569::1696544569::1::::<><>::
+platforms12.png::CompressedTexture2D::3755159958545640138::1696544569::1696544569::1::::<><>::
+platvariation1.png::CompressedTexture2D::4054282882728314566::1696544570::1696544570::1::::<><>::
+platvariation2.png::CompressedTexture2D::4000686569313347810::1696544570::1696544570::1::::<><>::
+platvariation3.png::CompressedTexture2D::2312162893602285481::1696544570::1696544570::1::::<><>::
+platvariation4.png::CompressedTexture2D::6075739389407161937::1696544570::1696544570::1::::<><>::
+platvariation5.png::CompressedTexture2D::3251246102452274149::1696544570::1696544570::1::::<><>::
+platvariation6.png::CompressedTexture2D::8887078634635465370::1696544570::1696544570::1::::<><>::
+platvariation7.png::CompressedTexture2D::6836000221284358023::1696544570::1696544570::1::::<><>::
+platvariation8.png::CompressedTexture2D::894602496730198720::1696544570::1696544570::1::::<><>::
+platvariation9.png::CompressedTexture2D::4993601348348600190::1696544570::1696544570::1::::<><>::
+platvariation10.png::CompressedTexture2D::3223410176296089819::1696544570::1696544570::1::::<><>::
+platvariation11.png::CompressedTexture2D::3831518486197596258::1696544570::1696544570::1::::<><>::
+platvariation12.png::CompressedTexture2D::363452222424727258::1696544570::1696544570::1::::<><>::
+platvariation13.png::CompressedTexture2D::7018549681089621519::1696544570::1696544570::1::::<><>::
+platvariation14.png::CompressedTexture2D::5256518468566481049::1696544570::1696544570::1::::<><>::
+platvariation15.png::CompressedTexture2D::6593797334853781448::1696544570::1696544570::1::::<><>::
+platvariation16.png::CompressedTexture2D::1093471538109089966::1696544570::1696544570::1::::<><>::
+platvariation17.png::CompressedTexture2D::3336630894699855325::1696544570::1696544570::1::::<><>::
+platvariation18.png::CompressedTexture2D::6681521779922305153::1696544570::1696544570::1::::<><>::
+tileMain1.png::CompressedTexture2D::1154868797601321990::1696544570::1696544570::1::::<><>::
+tileMain2.png::CompressedTexture2D::3030729185686486838::1696544570::1696544570::1::::<><>::
+tileMain3.png::CompressedTexture2D::1896290706392482149::1696544570::1696544570::1::::<><>::
+tileMain4.png::CompressedTexture2D::2554762265242600797::1696544570::1696544570::1::::<><>::
+tileMain5.png::CompressedTexture2D::6546776297966531262::1696544570::1696544570::1::::<><>::
+tileMain6.png::CompressedTexture2D::5629489319777262931::1696544570::1696544570::1::::<><>::
+tileMain7.png::CompressedTexture2D::2677761849331323507::1696544570::1696544570::1::::<><>::
+tileMain8.png::CompressedTexture2D::3501302688413639245::1696544570::1696544570::1::::<><>::
+tileMain9.png::CompressedTexture2D::2667018058047739195::1696544570::1696544570::1::::<><>::
+tileMain10.png::CompressedTexture2D::6085009196830885793::1696544570::1696544570::1::::<><>::
+tileMain11.png::CompressedTexture2D::3920942921334505103::1696544570::1696544570::1::::<><>::
+tileMain12.png::CompressedTexture2D::7015392884312284044::1696544570::1696544570::1::::<><>::
+tileMain13.png::CompressedTexture2D::6834556343512691351::1696544570::1696544570::1::::<><>::
+tileMain14.png::CompressedTexture2D::8311361316520381940::1696544570::1696544570::1::::<><>::
+tileMain15.png::CompressedTexture2D::1559319026153002380::1696544570::1696544570::1::::<><>::
+tileMain16.png::CompressedTexture2D::6618645325062688831::1696544570::1696544570::1::::<><>::
+tileMain17.png::CompressedTexture2D::9036220957090184698::1696544570::1696544570::1::::<><>::
+tileMain18.png::CompressedTexture2D::7171683936881490240::1696544570::1696544570::1::::<><>::
+tileMain19.png::CompressedTexture2D::588089510956808214::1696544570::1696544570::1::::<><>::
+tileMain20.png::CompressedTexture2D::2180180879237585576::1696544570::1696544570::1::::<><>::
+tileMain21.png::CompressedTexture2D::5566015173710904207::1696544570::1696544570::1::::<><>::
+tileMain22.png::CompressedTexture2D::744695889610172716::1696544570::1696544570::1::::<><>::
+tileMain23.png::CompressedTexture2D::4578668590608937686::1696544570::1696544570::1::::<><>::
+tileMain24.png::CompressedTexture2D::830356919125312534::1696544570::1696544570::1::::<><>::
+tileMain25.png::CompressedTexture2D::1476169073992155935::1696544570::1696544570::1::::<><>::
+tileMain26.png::CompressedTexture2D::7283027577280961329::1696544570::1696544570::1::::<><>::
+tileMain27.png::CompressedTexture2D::5085725004340006933::1696544570::1696544570::1::::<><>::
+tileMain28.png::CompressedTexture2D::3274677708235453746::1696544570::1696544570::1::::<><>::
+tileMain29.png::CompressedTexture2D::2894861865314132036::1696544570::1696544570::1::::<><>::
+tileMain30.png::CompressedTexture2D::1666636893282270607::1696544570::1696544570::1::::<><>::
+tileMain31.png::CompressedTexture2D::2610270785960536578::1696544570::1696544570::1::::<><>::
+tileMain32.png::CompressedTexture2D::7368970693185729740::1696544570::1696544570::1::::<><>::
+water1.png::CompressedTexture2D::5256173558555629476::1696544570::1696544570::1::::<><>::
+water2.png::CompressedTexture2D::880780844217056216::1696544570::1696544570::1::::<><>::
+::res://art savior/Pruebas/::1697501241
+::res://art savior/Pruebas/Warrior/::1603093107
+Contact.txt::TextFile::-1::1601133101::0::1::::<><>::
+License.txt::TextFile::-1::1601132957::0::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/::1604577705
+::res://art savior/Pruebas/Warrior/Individual Sprite/Attack/::1697501782
+Warrior_Attack_1.png::CompressedTexture2D::2949336139970283217::1601279299::1697501782::1::::<><>::
+Warrior_Attack_2.png::CompressedTexture2D::736631367150550042::1601279299::1697501782::1::::<><>::
+Warrior_Attack_3.png::CompressedTexture2D::2363525621660014099::1601279299::1697501782::1::::<><>::
+Warrior_Attack_4.png::CompressedTexture2D::1234527679591521069::1601279299::1697501782::1::::<><>::
+Warrior_Attack_5.png::CompressedTexture2D::3951668048360391842::1601279299::1697501782::1::::<><>::
+Warrior_Attack_6.png::CompressedTexture2D::1360162331147414529::1601279299::1697501782::1::::<><>::
+Warrior_Attack_7.png::CompressedTexture2D::3958991092816336199::1601279299::1697501782::1::::<><>::
+Warrior_Attack_8.png::CompressedTexture2D::197319040871762392::1601279299::1697501782::1::::<><>::
+Warrior_Attack_9.png::CompressedTexture2D::6087557095344336000::1601279299::1697501782::1::::<><>::
+Warrior_Attack_10.png::CompressedTexture2D::3802689582991537362::1601279299::1697501782::1::::<><>::
+Warrior_Attack_11.png::CompressedTexture2D::3266022472603564006::1601279300::1697501782::1::::<><>::
+Warrior_Attack_12.png::CompressedTexture2D::7439316665847461676::1601279300::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/::1697501782
+Warrior_Crouch_1.png::CompressedTexture2D::6027613808391597586::1603294120::1697501782::1::::<><>::
+Warrior_Crouch_2.png::CompressedTexture2D::1500086436572835123::1603294121::1697501782::1::::<><>::
+Warrior_Crouch_3.png::CompressedTexture2D::5250797928931221998::1603294121::1697501782::1::::<><>::
+Warrior_Crouch_4.png::CompressedTexture2D::5185511871303820333::1603294121::1697501782::1::::<><>::
+Warrior_Crouch_5.png::CompressedTexture2D::1023809958706133568::1603294121::1697501782::1::::<><>::
+Warrior_Crouch_6.png::CompressedTexture2D::6737954382103451635::1603294121::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Dash/::1697501782
+Warrior_Dash_1.png::CompressedTexture2D::3820190712420591820::1603294188::1697501781::1::::<><>::
+Warrior_Dash_2.png::CompressedTexture2D::4669451967259598301::1603294188::1697501781::1::::<><>::
+Warrior_Dash_3.png::CompressedTexture2D::3905390924397314458::1603294188::1697501781::1::::<><>::
+Warrior_Dash_4.png::CompressedTexture2D::7403851475539078923::1603294188::1697501781::1::::<><>::
+Warrior_Dash_5.png::CompressedTexture2D::2795570778925213842::1603294188::1697501781::1::::<><>::
+Warrior_Dash_6.png::CompressedTexture2D::468900558583589516::1603294188::1697501782::1::::<><>::
+Warrior_Dash_7.png::CompressedTexture2D::7120558337847097273::1603294188::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Dash Attack/::1697501782
+Warrior_Dash-Attack_1.png::CompressedTexture2D::7781727007027877957::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_2.png::CompressedTexture2D::8396422440619906842::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_3.png::CompressedTexture2D::5354825536707825336::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_4.png::CompressedTexture2D::3031375885207951995::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_5.png::CompressedTexture2D::4418360570182525657::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_6.png::CompressedTexture2D::1652115170602900784::1603294160::1697501782::1::::<><>::
+Warrior_Dash-Attack_7.png::CompressedTexture2D::7600483237579237619::1603294161::1697501782::1::::<><>::
+Warrior_Dash-Attack_8.png::CompressedTexture2D::2104249658655237695::1603294161::1697501782::1::::<><>::
+Warrior_Dash-Attack_9.png::CompressedTexture2D::1127091791619572512::1603294161::1697501782::1::::<><>::
+Warrior_Dash-Attack_10.png::CompressedTexture2D::6286082126786905874::1603294161::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Dash-Attack_noDust/::1697501782
+Warrior_Dash-Attack_1.png::CompressedTexture2D::3390956496588108095::1603294016::1697501782::1::::<><>::
+Warrior_Dash-Attack_2.png::CompressedTexture2D::3294959686356080911::1603294016::1697501782::1::::<><>::
+Warrior_Dash-Attack_3.png::CompressedTexture2D::3304391279946869681::1603294016::1697501782::1::::<><>::
+Warrior_Dash-Attack_4.png::CompressedTexture2D::6073792892763122766::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_5.png::CompressedTexture2D::8979393169059872549::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_6.png::CompressedTexture2D::2963655720465365948::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_7.png::CompressedTexture2D::2899134985814833070::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_8.png::CompressedTexture2D::5933109624558749671::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_9.png::CompressedTexture2D::406400920108803713::1603294017::1697501782::1::::<><>::
+Warrior_Dash-Attack_10.png::CompressedTexture2D::7889130031229083658::1603294017::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Dash_NoDust/::1697501782
+Warrior_Dash_1.png::CompressedTexture2D::920201627869386213::1603293978::1697501782::1::::<><>::
+Warrior_Dash_2.png::CompressedTexture2D::7201090664235669174::1603293979::1697501782::1::::<><>::
+Warrior_Dash_3.png::CompressedTexture2D::8634665615438551679::1603293979::1697501782::1::::<><>::
+Warrior_Dash_4.png::CompressedTexture2D::5545130205644446587::1603293979::1697501782::1::::<><>::
+Warrior_Dash_5.png::CompressedTexture2D::3187653789912952104::1603293979::1697501782::1::::<><>::
+Warrior_Dash_6.png::CompressedTexture2D::1309626496171091979::1603293979::1697501782::1::::<><>::
+Warrior_Dash_7.png::CompressedTexture2D::6213813248272873197::1603293979::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Death-Effect/::1697501783
+Warrior_Death_1.png::CompressedTexture2D::604498840243297550::1601279462::1697501783::1::::<><>::
+Warrior_Death_2.png::CompressedTexture2D::3475243146931051770::1601279462::1697501782::1::::<><>::
+Warrior_Death_3.png::CompressedTexture2D::238734645011521629::1601279462::1697501782::1::::<><>::
+Warrior_Death_4.png::CompressedTexture2D::7085148204144193953::1601279462::1697501782::1::::<><>::
+Warrior_Death_5.png::CompressedTexture2D::2969705291236923819::1601279462::1697501782::1::::<><>::
+Warrior_Death_6.png::CompressedTexture2D::4662471144400576879::1601279462::1697501782::1::::<><>::
+Warrior_Death_7.png::CompressedTexture2D::8648071997008171142::1601279463::1697501782::1::::<><>::
+Warrior_Death_8.png::CompressedTexture2D::5635981498233705507::1601279463::1697501782::1::::<><>::
+Warrior_Death_9.png::CompressedTexture2D::2884184047390001042::1601279463::1697501782::1::::<><>::
+Warrior_Death_10.png::CompressedTexture2D::1686098004743920298::1601279463::1697501782::1::::<><>::
+Warrior_Death_11.png::CompressedTexture2D::5802099637220636847::1601279463::1697501782::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/DeathnoEffect/::1697501782
+Warrior_Death_1.png::CompressedTexture2D::8162357083791818662::1601279681::1697501782::1::::<><>::
+Warrior_Death_2.png::CompressedTexture2D::660893098828538213::1601279681::1697501782::1::::<><>::
+Warrior_Death_3.png::CompressedTexture2D::1524075880553540927::1601279681::1697501782::1::::<><>::
+Warrior_Death_4.png::CompressedTexture2D::8996021592318867244::1601279681::1697501782::1::::<><>::
+Warrior_Death_5.png::CompressedTexture2D::302035849639375614::1601279681::1697501782::1::::<><>::
+Warrior_Death_6.png::CompressedTexture2D::8086754050917540008::1601279681::1697501782::1::::<><>::
+Warrior_Death_7.png::CompressedTexture2D::3648479160598691725::1601279681::1697501782::1::::<><>::
+Warrior_Death_8.png::CompressedTexture2D::827735548416889817::1601279682::1697501782::1::::<><>::
+Warrior_Death_9.png::CompressedTexture2D::3981629369152814812::1601279682::1697501780::1::::<><>::
+Warrior_Death_10.png::CompressedTexture2D::8561668706946486161::1601279682::1697501780::1::::<><>::
+Warrior_Death_11.png::CompressedTexture2D::7471953270197736134::1601279682::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Edge-Idle/::1697501780
+Warrior_Edge-Idle_1.png::CompressedTexture2D::2418369913357823554::1603294210::1697501780::1::::<><>::
+Warrior_Edge-Idle_2.png::CompressedTexture2D::3379139488411329980::1603294210::1697501780::1::::<><>::
+Warrior_Edge-Idle_3.png::CompressedTexture2D::6307405607522841068::1603294210::1697501780::1::::<><>::
+Warrior_Edge-Idle_4.png::CompressedTexture2D::7537371506947515016::1603294210::1697501780::1::::<><>::
+Warrior_Edge-Idle_5.png::CompressedTexture2D::94692454955933768::1603294210::1697501780::1::::<><>::
+Warrior_Edge-Idle_6.png::CompressedTexture2D::4972115216570062982::1603294210::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/EdgeGrab/::1697501781
+Warrior_Edge-Grab_1.png::CompressedTexture2D::2225428268573834162::1603294229::1697501780::1::::<><>::
+Warrior_Edge-Grab_2.png::CompressedTexture2D::8732773586121428580::1603294229::1697501780::1::::<><>::
+Warrior_Edge-Grab_3.png::CompressedTexture2D::6512969523749258610::1603294229::1697501781::1::::<><>::
+Warrior_Edge-Grab_4.png::CompressedTexture2D::6693105291141556377::1603294230::1697501781::1::::<><>::
+Warrior_Edge-Grab_5.png::CompressedTexture2D::2416409752727662142::1603294230::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Fall/::1697501781
+Warrior_Fall_1.png::CompressedTexture2D::5188530411534720914::1601280078::1697501781::1::::<><>::
+Warrior_Fall_2.png::CompressedTexture2D::407733270403522024::1601280078::1697501781::1::::<><>::
+Warrior_Fall_3.png::CompressedTexture2D::6329042290639926664::1601280078::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Hurt-Effect/::1697501781
+Warrior_hurt_1.png::CompressedTexture2D::2375084785708749901::1601279892::1697501781::1::::<><>::
+Warrior_hurt_2.png::CompressedTexture2D::5820958959137021018::1601279893::1697501780::1::::<><>::
+Warrior_hurt_3.png::CompressedTexture2D::1557700750565776076::1601279893::1697501780::1::::<><>::
+Warrior_hurt_4.png::CompressedTexture2D::891814112862109178::1601279893::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/HurtnoEffect/::1697501780
+Warrior_hurt_1.png::CompressedTexture2D::4178045252392978392::1601279913::1697501780::1::::<><>::
+Warrior_hurt_2.png::CompressedTexture2D::3988398289972633893::1601279913::1697501780::1::::<><>::
+Warrior_hurt_3.png::CompressedTexture2D::8774918271924453165::1601279913::1697501780::1::::<><>::
+Warrior_hurt_4.png::CompressedTexture2D::5517985761886534390::1601279913::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/idle/::1697501780
+Warrior_Idle_1.png::CompressedTexture2D::7297955473091591259::1601279070::1697501780::1::::<><>::
+Warrior_Idle_2.png::CompressedTexture2D::4029499503806928253::1601279070::1697501780::1::::<><>::
+Warrior_Idle_3.png::CompressedTexture2D::8543981751084268511::1601279070::1697501780::1::::<><>::
+Warrior_Idle_4.png::CompressedTexture2D::8340632766159475978::1601279070::1697501780::1::::<><>::
+Warrior_Idle_5.png::CompressedTexture2D::5893979236695325341::1601279070::1697501780::1::::<><>::
+Warrior_Idle_6.png::CompressedTexture2D::590333694822494687::1601279070::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Jump/::1697501780
+Warrior_Jump_1.png::CompressedTexture2D::388949799982375117::1601279947::1697501780::1::::<><>::
+Warrior_Jump_2.png::CompressedTexture2D::960990025478774189::1601279947::1697501780::1::::<><>::
+Warrior_Jump_3.png::CompressedTexture2D::3058737337629046196::1601279947::1697501780::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Ladder-Grab/::1697501781
+Warrior-Ladder-Grab_1.png::CompressedTexture2D::3987763014675451175::1604576576::1697501780::1::::<><>::
+Warrior-Ladder-Grab_2.png::CompressedTexture2D::235577398091190625::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_3.png::CompressedTexture2D::8231283115081029197::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_4.png::CompressedTexture2D::7737151794520585048::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_5.png::CompressedTexture2D::2202710954085907762::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_6.png::CompressedTexture2D::5860597441164256799::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_7.png::CompressedTexture2D::7536619957349690117::1604576576::1697501781::1::::<><>::
+Warrior-Ladder-Grab_8.png::CompressedTexture2D::7210376084780913299::1604576577::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Run/::1697501781
+Warrior_Run_1.png::CompressedTexture2D::1795606931397040009::1601279216::1697501781::1::::<><>::
+Warrior_Run_2.png::CompressedTexture2D::8286201338060407127::1601279216::1697501781::1::::<><>::
+Warrior_Run_3.png::CompressedTexture2D::6657239617306581564::1601279216::1697501781::1::::<><>::
+Warrior_Run_4.png::CompressedTexture2D::5665791478121569281::1601279216::1697501781::1::::<><>::
+Warrior_Run_5.png::CompressedTexture2D::5427593479224188265::1601279216::1697501781::1::::<><>::
+Warrior_Run_6.png::CompressedTexture2D::5315968367352940004::1601279216::1697501781::1::::<><>::
+Warrior_Run_7.png::CompressedTexture2D::1916714396322122464::1601279217::1697501781::1::::<><>::
+Warrior_Run_8.png::CompressedTexture2D::2914801934862054682::1601279217::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/Slide/::1697501781
+Warrior-Slide_1.png::CompressedTexture2D::4035008549792016072::1604576602::1697501781::1::::<><>::
+Warrior-Slide_2.png::CompressedTexture2D::2598034813959730141::1604576602::1697501781::1::::<><>::
+Warrior-Slide_3.png::CompressedTexture2D::2287006569739273373::1604576602::1697501781::1::::<><>::
+Warrior-Slide_4.png::CompressedTexture2D::7980936318608855039::1604576602::1697501781::1::::<><>::
+Warrior-Slide_5.png::CompressedTexture2D::8609708662742078204::1604576602::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/SlideNoEffect/::1697501781
+Warrior-SlideNoEffect_1.png::CompressedTexture2D::9138944353760590420::1604576647::1697501781::1::::<><>::
+Warrior-SlideNoEffect_2.png::CompressedTexture2D::1064459679191317098::1604576647::1697501781::1::::<><>::
+Warrior-SlideNoEffect_3.png::CompressedTexture2D::7470658385962570321::1604576647::1697501781::1::::<><>::
+Warrior-SlideNoEffect_4.png::CompressedTexture2D::667505129386948608::1604576647::1697501781::1::::<><>::
+Warrior-SlideNoEffect_5.png::CompressedTexture2D::549171236399497055::1604576647::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/UptoFall/::1697501781
+Warrior_UptoFall_1.png::CompressedTexture2D::7235458746138481000::1601280050::1697501781::1::::<><>::
+Warrior_UptoFall_2.png::CompressedTexture2D::2598212783880189594::1601280050::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/WallSlide/::1697501781
+Warrior_WallSlide_1.png::CompressedTexture2D::7812751008866034489::1603294291::1697501781::1::::<><>::
+Warrior_WallSlide_2.png::CompressedTexture2D::571315091160592268::1603294291::1697501781::1::::<><>::
+Warrior_WallSlide_3.png::CompressedTexture2D::7234071571246557798::1603294291::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/Individual Sprite/WallSlide_NoDust/::1697501781
+Warrior_WallSlide_1.png::CompressedTexture2D::7920708355722390281::1603294038::1697501781::1::::<><>::
+Warrior_WallSlide_2.png::CompressedTexture2D::4637951015490537194::1603294038::1697501781::1::::<><>::
+Warrior_WallSlide_3.png::CompressedTexture2D::4759783504821390882::1603294038::1697501781::1::::<><>::
+::res://art savior/Pruebas/Warrior/SpriteSheet/::1697501781
+Warrior_Sheet-Effect.png::CompressedTexture2D::1646572386216262221::1604841823::1697501781::1::::<><>::
+Warrior_SheetnoEffect.png::CompressedTexture2D::1636061562420306047::1604841844::1697501781::1::::<><>::
+::res://art savior/PSD/::1696544569
+::res://art savior/puerta/::1696544570
+puerta1.png::CompressedTexture2D::5593538272410096585::1696544570::1696544570::1::::<><>::
+puerta2.png::CompressedTexture2D::1746934568067314330::1696544570::1696544570::1::::<><>::
+::res://art savior/Soldier_1/::1696544570
+Attack.png::CompressedTexture2D::4200280297214364918::1696544570::1696544570::1::::<><>::
+Dead.png::CompressedTexture2D::5939045868116159173::1696544570::1696544570::1::::<><>::
+Explosion.png::CompressedTexture2D::3264107272983337196::1696544570::1696544570::1::::<><>::
+Grenade.png::CompressedTexture2D::2731101172779043657::1696544570::1696544570::1::::<><>::
+Hurt.png::CompressedTexture2D::1496216931566164786::1696544570::1696544570::1::::<><>::
+Idle.png::CompressedTexture2D::7535574991238953046::1696544570::1696544570::1::::<><>::
+Recharge.png::CompressedTexture2D::398936895832096375::1696544570::1696544570::1::::<><>::
+Run.png::CompressedTexture2D::8553118176768858820::1696544570::1696544570::1::::<><>::
+Shot_1.png::CompressedTexture2D::7813664900140100015::1696544570::1696544570::1::::<><>::
+Shot_2.png::CompressedTexture2D::4859077762601792859::1696544570::1696544570::1::::<><>::
+Walk.png::CompressedTexture2D::5888654079246613504::1696544570::1696544570::1::::<><>::
+::res://art savior/Soldier_1/iddle/::1696544570
+Sin título-1.png::CompressedTexture2D::3603084087165124130::1696544570::1696544570::1::::<><>::
+Sin título-2.png::CompressedTexture2D::553214233608737474::1696544570::1696544570::1::::<><>::
+::res://art savior/Soldier_1/run/::1696544570
+run2.png::CompressedTexture2D::6327083662731826155::1696544570::1696544570::1::::<><>::
+run3.png::CompressedTexture2D::8465879711399456465::1696544570::1696544570::1::::<><>::
+run4.png::CompressedTexture2D::5133543999207233840::1696544570::1696544570::1::::<><>::
+run5.png::CompressedTexture2D::5337501403324983102::1696544570::1696544570::1::::<><>::
+run6.png::CompressedTexture2D::8898565588671205587::1696544570::1696544570::1::::<><>::
+run7.png::CompressedTexture2D::1192238834699043421::1696544570::1696544570::1::::<><>::
+run8.png::CompressedTexture2D::7848708910670360462::1696544570::1696544570::1::::<><>::
+run9.png::CompressedTexture2D::8236131486713034649::1696544570::1696544570::1::::<><>::
+Walk2.png::CompressedTexture2D::9064936653240359485::1696544570::1696544570::1::::<><>::
+Walk 1.png::CompressedTexture2D::3871749960211743453::1696544570::1696544570::1::::<><>::
+walk 3.png::CompressedTexture2D::7617802523092412597::1696544570::1696544570::1::::<><>::
+Walk 4.png::CompressedTexture2D::6675540119078470077::1696544570::1696544570::1::::<><>::
+Walk 5.png::CompressedTexture2D::6970453550015427287::1696544570::1696544570::1::::<><>::
+Walk 6.png::CompressedTexture2D::4004408550798430720::1696544570::1696544570::1::::<><>::
+Walk 7.png::CompressedTexture2D::6881656885315860053::1696544570::1696544570::1::::<><>::
+::res://art savior/Soldier_2/::1696544570
+Attack.png::CompressedTexture2D::7578648231740779078::1696544570::1696544570::1::::<><>::
+Dead.png::CompressedTexture2D::7189829360539614189::1696544570::1696544570::1::::<><>::
+Grenade.png::CompressedTexture2D::1308472151951285517::1696544570::1696544570::1::::<><>::
+Hurt.png::CompressedTexture2D::6176214585942617512::1696544570::1696544570::1::::<><>::
+Idle.png::CompressedTexture2D::8747107151541379938::1696544570::1696544570::1::::<><>::
+Recharge.png::CompressedTexture2D::5903522808546873174::1696544570::1696544570::1::::<><>::
+Run.png::CompressedTexture2D::5015698317120570001::1696544570::1696544570::1::::<><>::
+Shot_1.png::CompressedTexture2D::8960158566959507059::1696544570::1696544570::1::::<><>::
+Shot_2.png::CompressedTexture2D::4366263938539269875::1696544570::1696544570::1::::<><>::
+Walk.png::CompressedTexture2D::856780520654391026::1696544570::1696544570::1::::<><>::
+::res://art savior/Soldier_3/::1696544570
+Attacck.png::CompressedTexture2D::8610723460715692138::1696544570::1696544570::1::::<><>::
+Dead.png::CompressedTexture2D::5755266038291404584::1696544570::1696544570::1::::<><>::
+Grenade.png::CompressedTexture2D::8481369095117809074::1696544570::1696544570::1::::<><>::
+Hurt.png::CompressedTexture2D::5457393760259267682::1696544570::1696544570::1::::<><>::
+Idle.png::CompressedTexture2D::2346467543012631689::1696544570::1696544570::1::::<><>::
+Recharge.png::CompressedTexture2D::4899680136909741334::1696544570::1696544570::1::::<><>::
+Run.png::CompressedTexture2D::4657754768848462430::1696544570::1696544570::1::::<><>::
+Shot_1.png::CompressedTexture2D::5137720377373322197::1696544570::1696544570::1::::<><>::
+Shot_2.png::CompressedTexture2D::5419938065417985657::1696544570::1696544570::1::::<><>::
+Smoke.png::CompressedTexture2D::7327615218171717954::1696544570::1696544570::1::::<><>::
+Walk.png::CompressedTexture2D::3700754923934435468::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/::1696544570
+1a6f99dd-4cab-4d28-befb-1979a6912daf.png::CompressedTexture2D::7697317569350992596::1696544570::1696544570::1::::<><>::
+2c0b624f-9279-4f5d-8c5f-98badfb42f0c.png::CompressedTexture2D::4141373724549082518::1696544570::1696544570::1::::<><>::
+38d02a7b-c48f-4fa1-afeb-73c99cf87145.png::CompressedTexture2D::1661021368891369024::1696544570::1696544570::1::::<><>::
+42c5f172-625b-479e-bcf0-6b3473b58791.png::CompressedTexture2D::6145422012168705979::1696544570::1696544570::1::::<><>::
+b7e6388e-a4c8-4345-9af7-36368f3147b6.png::CompressedTexture2D::793265967572679411::1696544570::1696544570::1::::<><>::
+f222eef0-0b23-4ac7-a119-d0823ddff093.png::CompressedTexture2D::431640253260420474::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/::1696544570
+::res://art savior/tanque_derecha/layers/1a6f99dd-4cab-4d28-befb-1979a6912daf/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::5578045325477726162::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/2c0b624f-9279-4f5d-8c5f-98badfb42f0c/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::4676551350249023138::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/38d02a7b-c48f-4fa1-afeb-73c99cf87145/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::6122969603123419532::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/42c5f172-625b-479e-bcf0-6b3473b58791/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::3148757183601489636::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/b7e6388e-a4c8-4345-9af7-36368f3147b6/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8896376627254732455::1696544570::1696544570::1::::<><>::
+::res://art savior/tanque_derecha/layers/f222eef0-0b23-4ac7-a119-d0823ddff093/::1696544570
+ccabfcde-f824-470e-a634-cb4dea7215ae.png::CompressedTexture2D::8546964310658160966::1696544570::1696544570::1::::<><>::
+::res://play/::1697503636
+animacion.tscn::PackedScene::55810119902254341::1696544570::0::1::::<><>::uid://cp5t5pq4ntarc
+enemy.tscn::PackedScene::3429755737988288170::1696544570::0::1::::<><>::res://play/player.gd<>uid://b0d6ouqck2mnt
+humano.gd::GDScript::-1::1697502975::0::1::::Humano<>CharacterBody2D<>::
+mapa.tscn::PackedScene::7710169795761759958::1697503614::0::1::::<><>::uid://dwkjalykqlw2r::::res://play/player.tscn<>uid://dlk20lk8vf3bq::::res://art savior/Platformer - desert/Background/BG-ruins.png<>uid://cgs65ndulccgq::::res://art savior/Platformer - desert/Tileset/00Atlas.png
+player.gd::GDScript::-1::1697503636::0::1::::<>Humano<>::
+player.tscn::PackedScene::8724607456899863447::1697503636::0::1::::<><>::res://play/player.gd<>uid://0t2nbxuxiwu0::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_1.png<>uid://dqb5r4mwssa0v::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_2.png<>uid://c13208a3rcdl1::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_3.png<>uid://cmys01daq6hi4::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_4.png<>uid://cjlfw3nn8ha3j::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_5.png<>uid://ch0dhta00ldro::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_6.png<>uid://2kqahawfrf25::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_7.png<>uid://bhr7mkqobnira::::res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_8.png<>uid://db8gi4awejk4r::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_1.png<>uid://cr426idxg3pdq::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_1.png<>uid://vmwg7lrgrd76::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_2.png<>uid://bxn6jd62wgs5j::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_2.png<>uid://dty1epuxeq8fr::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_3.png<>uid://cg2r40gykn5os::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_3.png<>uid://cf45vgc04jue4::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_4.png<>uid://dq3jads63qhj3::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_4.png<>uid://cp8c8hkmke0sv::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_5.png<>uid://ot7aarjfs45q::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_5.png<>uid://c286ehvmec01l::::res://art savior/Pruebas/Warrior/Individual Sprite/Crouch/Warrior_Crouch_6.png<>uid://in7yeoig1yvf::::res://art savior/Pruebas/Warrior/Individual Sprite/idle/Warrior_Idle_6.png<>uid://fsn7gaq5166d::::res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png<>uid://nxrmokotqyr2::::res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png<>uid://bjtw7smot68rg::::res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png
