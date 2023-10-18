@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://hd72b0m7v8uy"]
+
+[ext_resource type="Script" path="res://Button.gd" id="1_2wt3l"]
+[ext_resource type="Texture2D" uid="uid://cutpoun2ifit0" path="res://art savior/Platformer - desert/showcase/plat_show1.png" id="1_4rsm0"]
+[ext_resource type="Texture2D" path=" " id="2_ts5xa"]
+
+[node name="menuPrincipal" type="Node"]
+
+[node name="Fondo" type="ParallaxBackground" parent="."]
+
+[node name="Capa" type="ParallaxLayer" parent="Fondo"]
+
+[node name="spriteFondo1" type="Sprite2D" parent="Fondo/Capa"]
+position = Vector2(325.5, 173)
+scale = Vector2(1.25586, 0.671875)
+texture = ExtResource("1_4rsm0")
+
+[node name="Container" type="CenterContainer" parent="."]
+anchors_preset = -1
+anchor_left = 0.48
+anchor_top = 0.758
+anchor_right = 0.48
+anchor_bottom = 0.758
+offset_left = -202.04
+offset_top = -112.784
+offset_right = 198.96
+offset_bottom = -8.784
+
+[node name="Button" type="Button" parent="Container"]
+layout_mode = 2
+text = "Iniciar Juego"
+icon = ExtResource("2_ts5xa")
+script = ExtResource("1_2wt3l")
+
+[connection signal="pressed" from="Container/Button" to="Container/Button" method="_on_pressed"]

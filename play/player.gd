@@ -3,7 +3,7 @@ extends Humano
 @onready var parado = $Parado;
 @onready var arrastrado = $Arrastrado
 @onready var anim := $Animacion
-
+var blend = 0.5
 func _ready():
 	parado.disabled = false
 	arrastrado.disabled = true

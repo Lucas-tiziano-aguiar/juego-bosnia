@@ -1,3 +1,6 @@
 res://play/player.tscn
 res://play/player.gd
 res://play/mapa.tscn
+res://Button.gd
+res://play/menu_principal.tscn
+res://play/humano.gd

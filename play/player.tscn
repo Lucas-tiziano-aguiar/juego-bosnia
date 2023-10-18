@@ -47,6 +47,15 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("10_v5adu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5vcd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_xk3jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_upabk")
 }],
 "loop": true,
 "name": &"agacharse",
@@ -186,7 +195,7 @@ position = Vector2(7, 0.499996)
 scale = Vector2(1.4375, 1.75)
 sprite_frames = SubResource("SpriteFrames_50hf3")
 animation = &"agacharse"
-frame_progress = 0.0474336
+frame_progress = 0.419993
 
 [node name="Parado" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 6)
