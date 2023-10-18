@@ -25,14 +25,14 @@ func _physics_process(delta):
 func sprint():
 	if Input.is_action_pressed("sprint"):
 		anim.play("correr")
-		speed = 140
+		speed = 180
 	else:
 		caminar()
 	
 
 func caminar():
 	anim.play("caminar")
-	speed = 120
+	speed = 130
 
 func iddle():
 	anim.play("iddle")

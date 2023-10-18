@@ -1,7 +1,8 @@
 extends CharacterBody2D
 class_name Humano
 
-var speed := 180;
+var Health = 200;
+var speed := 0;
 var direccion := 0.0;
 const gravity = 9
 const jump = 250

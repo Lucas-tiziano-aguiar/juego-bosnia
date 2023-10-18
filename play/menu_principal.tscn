@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://hd72b0m7v8uy"]
+[gd_scene load_steps=3 format=3 uid="uid://hd72b0m7v8uy"]
 
 [ext_resource type="Script" path="res://Button.gd" id="1_2wt3l"]
 [ext_resource type="Texture2D" uid="uid://cutpoun2ifit0" path="res://art savior/Platformer - desert/showcase/plat_show1.png" id="1_4rsm0"]
-[ext_resource type="Texture2D" path=" " id="2_ts5xa"]
 
 [node name="menuPrincipal" type="Node"]
 
@@ -29,7 +28,6 @@ offset_bottom = -8.784
 [node name="Button" type="Button" parent="Container"]
 layout_mode = 2
 text = "Iniciar Juego"
-icon = ExtResource("2_ts5xa")
 script = ExtResource("1_2wt3l")
 
 [connection signal="pressed" from="Container/Button" to="Container/Button" method="_on_pressed"]
