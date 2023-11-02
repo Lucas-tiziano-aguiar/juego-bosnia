@@ -1,15 +1,19 @@
-[gd_scene load_steps=47 format=3 uid="uid://dh34mt2c5362e"]
+[gd_scene load_steps=51 format=3 uid="uid://dh34mt2c5362e"]
 
 [ext_resource type="PackedScene" uid="uid://dwkjalykqlw2r" path="res://play/player.tscn" id="1_ynve4"]
-[ext_resource type="Texture2D" uid="uid://bly0w7cvyfof5" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0006_4.png" id="2_8p87r"]
 [ext_resource type="Texture2D" uid="uid://ddbd0lgfsqfrl" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0001_8.png" id="2_e8h4d"]
-[ext_resource type="Texture2D" uid="uid://gkye1vpjsd10" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0010_1.png" id="2_lhk3v"]
+[ext_resource type="Texture2D" uid="uid://c7hhvjynv6i0d" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0011_0.png" id="2_ii8vb"]
 [ext_resource type="Texture2D" uid="uid://bgr1qf4vtj8l6" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0004_Lights.png" id="2_t8kci"]
 [ext_resource type="Texture2D" uid="uid://dkrkifo2a05a6" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0005_5.png" id="2_x8b71"]
+[ext_resource type="Texture2D" uid="uid://gkye1vpjsd10" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0010_1.png" id="3_alfxt"]
 [ext_resource type="Texture2D" uid="uid://cgs65ndulccgq" path="res://art savior/Platformer - desert/Tileset/00Atlas.png" id="3_gfo6u"]
+[ext_resource type="Texture2D" uid="uid://i3wcok04k3fy" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0009_2.png" id="4_0efrq"]
 [ext_resource type="Texture2D" uid="uid://dhq6l5e7tsd5e" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0002_7.png" id="4_8pwxm"]
 [ext_resource type="Texture2D" uid="uid://c1kg7jxlyn1bg" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0003_6.png" id="5_0rnrd"]
 [ext_resource type="Texture2D" uid="uid://bpicu208ia541" path="res://art savior/Assets/Tiles.png" id="5_3h8t4"]
+[ext_resource type="Texture2D" uid="uid://dg7gevw5sw4ox" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0008_3.png" id="5_ylg3b"]
+[ext_resource type="Texture2D" uid="uid://dwhoouoftboyc" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0007_Lights.png" id="6_gj4fw"]
+[ext_resource type="Texture2D" uid="uid://bly0w7cvyfof5" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0006_4.png" id="7_a7xb6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tbyjy"]
 size = Vector2(1333, 20)
@@ -2240,94 +2244,119 @@ sources/1 = SubResource("TileSetAtlasSource_gley5")
 [node name="mapa" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_ynve4")]
-position = Vector2(60.5554, 213.913)
+position = Vector2(370.555, 362.913)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(506.692, 641.086)
+position = Vector2(826.692, 614.086)
 scale = Vector2(1, 1.2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(112.308, -254.238)
+position = Vector2(102.308, -107.571)
 shape = SubResource("RectangleShape2D_tbyjy")
 
 [node name="Fondo" type="ParallaxBackground" parent="."]
 
-[node name="cielo de fondo" type="ParallaxLayer" parent="Fondo"]
+[node name="ParallaxLayer11" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.1, 1)
+motion_mirroring = Vector2(928, 793)
 
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/cielo de fondo"]
-position = Vector2(1099, 0)
-scale = Vector2(2.94181, 1)
-texture = ExtResource("2_lhk3v")
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer11"]
+texture = ExtResource("2_ii8vb")
+centered = false
 
-[node name="arboles muy lejos" type="ParallaxLayer" parent="Fondo"]
-position = Vector2(247, -453)
+[node name="ParallaxLayer10" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.2, 1)
+motion_mirroring = Vector2(928, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/arboles muy lejos"]
-position = Vector2(-15, 395)
-scale = Vector2(1.06466, 1)
-texture = ExtResource("2_8p87r")
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer10"]
+texture = ExtResource("3_alfxt")
+centered = false
 
-[node name="Sprite2D2" type="Sprite2D" parent="Fondo/arboles muy lejos"]
-position = Vector2(941.5, 395)
-scale = Vector2(1.26401, 1)
-texture = ExtResource("2_8p87r")
+[node name="ParallaxLayer9" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.3, 1)
+motion_mirroring = Vector2(928, 0)
 
-[node name="arboles fondo" type="ParallaxLayer" parent="Fondo"]
-position = Vector2(454, -606)
-metadata/_edit_group_ = true
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer9"]
+texture = ExtResource("4_0efrq")
+centered = false
 
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/arboles fondo"]
-position = Vector2(-41.5, 542)
-scale = Vector2(0.904095, 1)
+[node name="ParallaxLayer8" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+scale = Vector2(928, 928)
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(928, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer8"]
+texture = ExtResource("5_ylg3b")
+centered = false
+
+[node name="ParallaxLayer7" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(928, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer7"]
+texture = ExtResource("6_gj4fw")
+centered = false
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(928, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer6"]
+texture = ExtResource("7_a7xb6")
+centered = false
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(928, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer5"]
 texture = ExtResource("2_x8b71")
+centered = false
 
-[node name="Sprite2D 2" type="Sprite2D" parent="Fondo/arboles fondo"]
-position = Vector2(823.5, 542)
-scale = Vector2(1.00323, 1)
-texture = ExtResource("2_x8b71")
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.8, 1)
+motion_mirroring = Vector2(928, 0)
 
-[node name="luz" type="ParallaxLayer" parent="Fondo"]
-
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/luz"]
-position = Vector2(553, -67)
-scale = Vector2(1.14655, 1.18285)
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer4"]
 texture = ExtResource("2_t8kci")
+centered = false
 
-[node name="Sprite2D 2" type="Sprite2D" parent="Fondo/luz"]
-position = Vector2(1353, -74.75)
-scale = Vector2(1.02155, 1.18096)
-texture = ExtResource("2_t8kci")
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(0.9, 1)
+motion_mirroring = Vector2(928, 0)
 
-[node name="llerba" type="ParallaxLayer" parent="Fondo"]
-texture_repeat = 2
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer3"]
+texture = ExtResource("5_0rnrd")
+centered = false
 
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/llerba"]
-position = Vector2(734.501, -84.25)
-scale = Vector2(2.2403, 0.999369)
-texture = ExtResource("2_e8h4d")
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_mirroring = Vector2(928, 0)
 
-[node name="frondoso" type="ParallaxLayer" parent="Fondo"]
-
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/frondoso"]
-position = Vector2(734.5, -29)
-scale = Vector2(2.17134, 0.70082)
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer2"]
 texture = ExtResource("4_8pwxm")
+centered = false
 
-[node name="arboles cerca" type="ParallaxLayer" parent="Fondo"]
-metadata/_edit_group_ = true
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Fondo"]
+position = Vector2(8, -345)
+motion_scale = Vector2(1.1, 1)
+motion_mirroring = Vector2(928, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="Fondo/arboles cerca"]
-position = Vector2(305.5, -49)
-scale = Vector2(1.1778, 1)
-texture = ExtResource("5_0rnrd")
-
-[node name="Sprite2D 2" type="Sprite2D" parent="Fondo/arboles cerca"]
-position = Vector2(1146, -48)
-scale = Vector2(1.22845, 1)
-texture = ExtResource("5_0rnrd")
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxLayer"]
+texture = ExtResource("2_e8h4d")
+centered = false
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
-position = Vector2(-18, 309)
+position = Vector2(292, 458)
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
@@ -2335,7 +2364,7 @@ position = Vector2(0, -70.25)
 shape = SubResource("RectangleShape2D_rhlyo")
 
 [node name="TileMap" type="TileMap" parent="."]
-position = Vector2(-2, 41)
+position = Vector2(308, 190)
 tile_set = SubResource("TileSet_v66gt")
 format = 2
 layer_0/name = "paredes"
