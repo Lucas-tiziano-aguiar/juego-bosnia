@@ -201,7 +201,8 @@ metadata/_edit_group_ = true
 position = Vector2(7, 7)
 scale = Vector2(1.16803, 1.45455)
 sprite_frames = SubResource("SpriteFrames_50hf3")
-animation = &"saltar"
+animation = &"agacharse"
+frame_progress = 0.419993
 
 [node name="Parado" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 13)
