@@ -166,11 +166,11 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_btypn"]
-radius = 15.0
-height = 68.0
+radius = 14.0
+height = 50.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ye70t"]
-size = Vector2(31, 16)
+size = Vector2(26, 7)
 
 [sub_resource type="Animation" id="Animation_xh7r3"]
 length = 0.001
@@ -186,23 +186,23 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(56, 57)
+position = Vector2(65, 56)
 script = ExtResource("1_4eyxn")
 metadata/_edit_group_ = true
 
 [node name="Animacion" type="AnimatedSprite2D" parent="."]
-position = Vector2(7, 0.499996)
-scale = Vector2(1.4375, 1.75)
+position = Vector2(7, 7)
+scale = Vector2(1.16803, 1.45455)
 sprite_frames = SubResource("SpriteFrames_50hf3")
 animation = &"agacharse"
 frame_progress = 0.419993
 
 [node name="Parado" type="CollisionShape2D" parent="."]
-position = Vector2(-2, 6)
+position = Vector2(-2, 13)
 shape = SubResource("CapsuleShape2D_btypn")
 
 [node name="Arrastrado" type="CollisionShape2D" parent="."]
-position = Vector2(-1.5, 30)
+position = Vector2(-2, 34)
 shape = SubResource("RectangleShape2D_ye70t")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

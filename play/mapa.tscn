@@ -3298,7 +3298,7 @@ sources/1 = SubResource("TileSetAtlasSource_gley5")
 [node name="mapa" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_ynve4")]
-position = Vector2(370.555, 362.913)
+position = Vector2(369, 375)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(826.692, 614.086)
