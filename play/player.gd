@@ -3,6 +3,8 @@ extends Humano
 @onready var parado = $Parado;
 @onready var arrastrado = $Arrastrado
 @onready var anim := $Animacion
+
+var trepado = false;
 var blend = 0.5
 func _ready():
 	parado.disabled = false
@@ -11,10 +13,11 @@ func _ready():
 func _physics_process(delta):
 	if is_on_floor():
 		direccion = Humano.inputTeclasLeftRight()
+		trepado = false;
 	velocity.x = direccion * speed
 	velocity.y = velocity.y + gravity
 	salto()
-	if direccion != 0 and is_on_floor():
+	if direccion != 0 and is_on_floor() and trepado = false:
 		direccionSprite()
 		agacharse()
 		sprint()
@@ -58,3 +61,7 @@ func salto():
 	if is_on_floor() and Input.is_action_just_pressed("jump"):
 		anim.play("saltar")
 		velocity.y -= jump
+
+
+func _on_area_2d_body_entered(body):
+	$Area2D/delante

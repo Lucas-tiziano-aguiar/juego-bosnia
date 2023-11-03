@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dwkjalykqlw2r"]
+[gd_scene load_steps=34 format=3 uid="uid://dwkjalykqlw2r"]
 
 [ext_resource type="Script" path="res://play/player.gd" id="1_4eyxn"]
 [ext_resource type="Texture2D" uid="uid://0t2nbxuxiwu0" path="res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_1.png" id="2_4ycow"]
@@ -24,6 +24,7 @@
 [ext_resource type="Texture2D" uid="uid://fsn7gaq5166d" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png" id="16_qbksx"]
 [ext_resource type="Texture2D" uid="uid://nxrmokotqyr2" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png" id="17_27160"]
 [ext_resource type="Texture2D" uid="uid://bjtw7smot68rg" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png" id="18_6qsku"]
+[ext_resource type="Script" path="res://play/areas.gd" id="25_j3g0y"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_50hf3"]
 animations = [{
@@ -185,6 +186,12 @@ _data = {
 "movimientos": SubResource("Animation_oqp30")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ucuad"]
+size = Vector2(1, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sri2g"]
+size = Vector2(1, 13)
+
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(65, 56)
 script = ExtResource("1_4eyxn")
@@ -211,3 +218,16 @@ libraries = {
 }
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("25_j3g0y")
+
+[node name="delante" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(13.5, 3)
+shape = SubResource("RectangleShape2D_ucuad")
+
+[node name="atras" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-17.5, 3.5)
+shape = SubResource("RectangleShape2D_sri2g")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
