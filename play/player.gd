@@ -17,7 +17,7 @@ func _physics_process(delta):
 	velocity.x = direccion * speed
 	velocity.y = velocity.y + gravity
 	salto()
-	if direccion != 0 and is_on_floor() and trepado = false:
+	if direccion != 0 and is_on_floor():
 		direccionSprite()
 		agacharse()
 		sprint()

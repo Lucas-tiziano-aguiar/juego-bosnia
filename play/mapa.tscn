@@ -1,5 +1,6 @@
-[gd_scene load_steps=52 format=3 uid="uid://dh34mt2c5362e"]
+[gd_scene load_steps=55 format=3 uid="uid://dh34mt2c5362e"]
 
+[ext_resource type="Script" path="res://play/auxiliares.gd" id="1_chs3j"]
 [ext_resource type="PackedScene" uid="uid://dwkjalykqlw2r" path="res://play/player.tscn" id="1_ynve4"]
 [ext_resource type="Texture2D" uid="uid://ddbd0lgfsqfrl" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0001_8.png" id="2_e8h4d"]
 [ext_resource type="Texture2D" uid="uid://c7hhvjynv6i0d" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0011_0.png" id="2_ii8vb"]
@@ -14,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://dg7gevw5sw4ox" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0008_3.png" id="5_ylg3b"]
 [ext_resource type="Texture2D" uid="uid://dwhoouoftboyc" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0007_Lights.png" id="6_gj4fw"]
 [ext_resource type="Texture2D" uid="uid://bly0w7cvyfof5" path="res://art savior/Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/Layer_0006_4.png" id="7_a7xb6"]
+[ext_resource type="Script" path="res://play/collision.gd" id="16_530sx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tbyjy"]
 size = Vector2(1333, 20)
@@ -3299,7 +3301,11 @@ navigation_layer_0/layers = 1
 sources/0 = SubResource("TileSetAtlasSource_6jk11")
 sources/1 = SubResource("TileSetAtlasSource_gley5")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uh7ij"]
+size = Vector2(32, 507.096)
+
 [node name="mapa" type="Node"]
+script = ExtResource("1_chs3j")
 
 [node name="Player" parent="." instance=ExtResource("1_ynve4")]
 position = Vector2(369, 375)
@@ -3434,3 +3440,12 @@ layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = 0
 layer_1/tile_data = PackedInt32Array(393378, 1376257, 12, 393379, 1376257, 12, 458915, 1376257, 12, 458916, 1376257, 12, 458917, 1376257, 12, 524453, 1376257, 12, 655521, 1376257, 12)
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("16_530sx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1847, 260)
+shape = SubResource("RectangleShape2D_uh7ij")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
