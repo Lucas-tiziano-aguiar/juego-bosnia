@@ -16,13 +16,16 @@ func _physics_process(delta):
 		trepado = false;
 	velocity.x = direccion * speed
 	velocity.y = velocity.y + gravity
-	salto()
 	if direccion != 0 and is_on_floor():
 		direccionSprite()
 		agacharse()
 		sprint()
+		salto()
 	else:
-		iddle()
+		if is_on_floor_only():
+			iddle()
+		else:
+			pass
 	move_and_slide()
 
 func sprint():
@@ -31,7 +34,6 @@ func sprint():
 		speed = 180
 	else:
 		caminar()
-	
 
 func caminar():
 	anim.play("caminar")
@@ -58,7 +60,7 @@ func agacharse():
 		arrastrado.disabled = true
 
 func salto():
-	if is_on_floor() and Input.is_action_just_pressed("jump"):
+	if Input.is_action_just_pressed("jump"):
 		anim.play("saltar")
 		velocity.y -= jump
 

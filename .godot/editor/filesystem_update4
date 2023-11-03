@@ -1,2 +1,7 @@
 res://play/mapa.tscn
 res://play/player.tscn
+res://play/humano.gd
+res://play/player.gd
+res://play/auxiliares.gd
+res://play/pantallaFin.tscn
+res://play/menu_principal.tscn
