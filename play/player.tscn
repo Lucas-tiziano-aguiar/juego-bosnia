@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dwkjalykqlw2r"]
+[gd_scene load_steps=33 format=3 uid="uid://dwkjalykqlw2r"]
 
 [ext_resource type="Script" path="res://play/player.gd" id="1_4eyxn"]
 [ext_resource type="Texture2D" uid="uid://0t2nbxuxiwu0" path="res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_1.png" id="2_4ycow"]
@@ -185,6 +185,12 @@ _data = {
 "movimientos": SubResource("Animation_oqp30")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ucuad"]
+size = Vector2(1, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sri2g"]
+size = Vector2(1, 13)
+
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(56, 57)
 script = ExtResource("1_4eyxn")
@@ -211,3 +217,13 @@ libraries = {
 }
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="delante" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(12.5, 3)
+shape = SubResource("RectangleShape2D_ucuad")
+
+[node name="atras" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-16.5, 3.5)
+shape = SubResource("RectangleShape2D_sri2g")
