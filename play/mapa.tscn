@@ -3302,7 +3302,7 @@ sources/0 = SubResource("TileSetAtlasSource_6jk11")
 sources/1 = SubResource("TileSetAtlasSource_gley5")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uh7ij"]
-size = Vector2(32, 507.096)
+size = Vector2(44, 391.548)
 
 [node name="mapa" type="Node"]
 script = ExtResource("1_chs3j")
@@ -3445,7 +3445,7 @@ layer_1/tile_data = PackedInt32Array(393378, 1376257, 12, 393379, 1376257, 12, 4
 script = ExtResource("16_530sx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(1847, 260)
+position = Vector2(1853, 202.226)
 shape = SubResource("RectangleShape2D_uh7ij")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
