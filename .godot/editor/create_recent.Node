@@ -1,3 +1,4 @@
+TileMap
 CollisionShape2D
 Area2D
 Sprite2D
@@ -8,7 +9,6 @@ CenterContainer
 ParallaxBackground
 Node
 AudioStreamPlayer2D
-TileMap
 Camera2D
 StaticBody2D
 AnimationPlayer
