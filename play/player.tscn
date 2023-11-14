@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://dwkjalykqlw2r"]
+[gd_scene load_steps=31 format=3 uid="uid://dwkjalykqlw2r"]
 
 [ext_resource type="Script" path="res://play/player.gd" id="1_4eyxn"]
 [ext_resource type="Texture2D" uid="uid://0t2nbxuxiwu0" path="res://art savior/Pruebas/Warrior/Individual Sprite/Run/Warrior_Run_1.png" id="2_4ycow"]
@@ -24,7 +24,6 @@
 [ext_resource type="Texture2D" uid="uid://fsn7gaq5166d" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png" id="16_qbksx"]
 [ext_resource type="Texture2D" uid="uid://nxrmokotqyr2" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png" id="17_27160"]
 [ext_resource type="Texture2D" uid="uid://bjtw7smot68rg" path="res://art savior/Pruebas/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png" id="18_6qsku"]
-[ext_resource type="Script" path="res://play/areas.gd" id="25_j3g0y"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_50hf3"]
 animations = [{
@@ -167,11 +166,11 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_btypn"]
-radius = 15.0
-height = 68.0
+radius = 11.0
+height = 48.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ye70t"]
-size = Vector2(31, 16)
+size = Vector2(22, 8.5)
 
 [sub_resource type="Animation" id="Animation_xh7r3"]
 length = 0.001
@@ -186,34 +185,24 @@ _data = {
 "movimientos": SubResource("Animation_oqp30")
 }
 
-<<<<<<< Updated upstream
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ucuad"]
-size = Vector2(1, 14)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_sri2g"]
-size = Vector2(1, 13)
-
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(56, 57)
-=======
-[node name="Player" type="CharacterBody2D" groups=["climber"]]
 position = Vector2(62, 67)
->>>>>>> Stashed changes
 script = ExtResource("1_4eyxn")
 metadata/_edit_group_ = true
 
 [node name="Animacion" type="AnimatedSprite2D" parent="."]
-position = Vector2(7, 0.499996)
-scale = Vector2(1.4375, 1.75)
+position = Vector2(7, 7)
+scale = Vector2(1.16803, 1.45455)
 sprite_frames = SubResource("SpriteFrames_50hf3")
-animation = &"saltar"
+animation = &"agacharse"
+frame_progress = 0.419993
 
 [node name="Parado" type="CollisionShape2D" parent="."]
-position = Vector2(-2, 6)
+position = Vector2(-2, 13)
 shape = SubResource("CapsuleShape2D_btypn")
 
 [node name="Arrastrado" type="CollisionShape2D" parent="."]
-position = Vector2(-1.5, 30)
+position = Vector2(-2, 33.25)
 shape = SubResource("RectangleShape2D_ye70t")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -223,15 +212,7 @@ libraries = {
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("25_j3g0y")
-
-[node name="delante" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(13.5, 3)
-shape = SubResource("RectangleShape2D_ucuad")
-
-[node name="atras" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-17.5, 3.5)
-shape = SubResource("RectangleShape2D_sri2g")
-
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[node name="raycastParkour" type="RayCast2D" parent="."]
+position = Vector2(-2, 13)
+rotation = -1.5708
+target_position = Vector2(0, 11.5)
