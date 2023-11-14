@@ -3,29 +3,34 @@ extends Humano
 @onready var parado = $Parado;
 @onready var arrastrado = $Arrastrado
 @onready var anim := $Animacion
+var  raycastLong = 11.5
 
-var trepado = false;
 var blend = 0.5
+var agarrado = false
 func _ready():
 	parado.disabled = false
 	arrastrado.disabled = true
+	$raycastParkour.target_position.y = raycastLong
 
 func _physics_process(delta):
-	if is_on_floor():
-		direccion = Humano.inputTeclasLeftRight()
-		trepado = false;
-	velocity.x = direccion * speed
-	velocity.y = velocity.y + gravity
-	if direccion != 0 and is_on_floor():
-		direccionSprite()
-		agacharse()
-		sprint()
-		salto()
-	else:
-		if is_on_floor_only():
+	agarrarse()
+	if agarrado == false and arrastrado.disabled == true:
+		if is_on_floor():
+			direccion = Humano.inputTeclasLeftRight()
+		velocity.x = direccion * speed
+		velocity.y += gravity
+		if direccion != 0 and is_on_floor():
+			direccionSprite()
+			sprint()
+			salto()
+		elif is_on_floor():
 			iddle()
-		else:
-			pass
+	if agarrado == true and arrastrado.disabled == true:
+		direccion = Humano.inputTeclasLeftRight()
+		velocity.x = 0
+		velocity.y = 0
+		direccionSprite()
+		saltoAgarrado()
 	move_and_slide()
 
 func sprint():
@@ -45,8 +50,16 @@ func iddle():
 func direccionSprite():
 	if direccion > 0:
 		anim.flip_h= false
-	else:
+		$raycastParkour.target_position.y = raycastLong
+	elif direccion < 0:
 		anim.flip_h = true
+		$raycastParkour.target_position.y = -raycastLong
+
+func estado():
+	if speed > 0:
+		sprint()
+	elif speed == 0:
+		iddle()
 
 func agacharse():
 	if Input.is_action_pressed("crouch"):
@@ -59,11 +72,31 @@ func agacharse():
 		parado.disabled = false
 		arrastrado.disabled = true
 
-func salto():
+func saltoAgarrado():
 	if Input.is_action_just_pressed("jump"):
 		anim.play("saltar")
 		velocity.y -= jump
+		agarrado = false
+		arrastrado.disabled = true
 
 
-func _on_area_2d_body_entered(body):
-	$Area2D/delante
+func salto():
+	if Input.is_action_just_pressed("jump"):
+		anim.play("saltar")
+		direccionSprite()
+		velocity.y -= jump
+		agarrado = false
+		arrastrado.disabled = true
+
+func agarrarse():
+	if ($raycastParkour.get_collider()):
+		print($raycastParkour.get_collider().is_in_group("tilesAgarrables"))
+		if $raycastParkour.get_collider().is_in_group("tilesAgarrables"):
+				if Input.is_action_pressed("agarrarse"):
+					anim.play("agarrado")
+					agarrado = true
+				elif Input.is_action_just_released("agarrarse"):
+					agarrado = false
+		else:
+			anim.play("saltar")
+			agarrado = false

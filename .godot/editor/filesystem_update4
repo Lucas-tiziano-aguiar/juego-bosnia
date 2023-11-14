@@ -1,2 +1,6 @@
-res://play/mapa.tscn
+res://play/menu_principal.tscn
 res://play/player.tscn
+res://play/mapa.tscn
+res://play/player.gd
+res://play/humano.gd
+res://play/Derecha.gd
