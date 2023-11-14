@@ -5075,7 +5075,7 @@ position = Vector2(826.692, 614.086)
 scale = Vector2(1, 1.2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(102.308, -107.571)
+position = Vector2(666.308, 84.9283)
 shape = SubResource("RectangleShape2D_tbyjy")
 
 [node name="Fondo" type="ParallaxBackground" parent="."]
