@@ -186,6 +186,7 @@ _data = {
 "movimientos": SubResource("Animation_oqp30")
 }
 
+<<<<<<< Updated upstream
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ucuad"]
 size = Vector2(1, 14)
 
@@ -194,6 +195,10 @@ size = Vector2(1, 13)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(56, 57)
+=======
+[node name="Player" type="CharacterBody2D" groups=["climber"]]
+position = Vector2(62, 67)
+>>>>>>> Stashed changes
 script = ExtResource("1_4eyxn")
 metadata/_edit_group_ = true
 

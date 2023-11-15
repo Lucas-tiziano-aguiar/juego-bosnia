@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
+=======
+Sprite2D
+>>>>>>> Stashed changes
 CollisionShape2D
 Area2D
-Sprite2D
+TileMap
+RayCast2D
 ParallaxLayer
 SpinBox
 Button
