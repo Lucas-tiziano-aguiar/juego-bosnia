@@ -1,15 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://bo4ntt0uyhvc1"]
+[gd_scene load_steps=6 format=3 uid="uid://bo4ntt0uyhvc1"]
 
 [ext_resource type="Script" path="res://play/player.gd" id="1_233bw"]
 [ext_resource type="Texture2D" uid="uid://b0d6ouqck2mnt" path="res://art savior/Sin título-1.png" id="2_3eiv0"]
 [ext_resource type="Texture2D" uid="uid://b6r2pit3yi554" path="res://art savior/Sin título-2.png" id="3_y3tkw"]
-[ext_resource type="Texture2D" uid="uid://p0xpws62b8rh" path="res://art savior/run2.png" id="4_d3ie0"]
-[ext_resource type="Texture2D" uid="uid://dalvw78ce5pvi" path="res://art savior/run3.png" id="5_jdx71"]
-[ext_resource type="Texture2D" uid="uid://c4acaavomq3oo" path="res://art savior/run4.png" id="6_bkei8"]
-[ext_resource type="Texture2D" uid="uid://dutoxw735soxt" path="res://art savior/run5.png" id="7_bm8sh"]
-[ext_resource type="Texture2D" uid="uid://cvt6vs6x8wj4u" path="res://art savior/run6.png" id="8_s65jp"]
-[ext_resource type="Texture2D" uid="uid://bljf717fbmdy5" path="res://art savior/run7.png" id="9_jirat"]
-[ext_resource type="Texture2D" uid="uid://dj8ecardkg6mx" path="res://art savior/run8.png" id="10_mupqb"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_50hf3"]
 animations = [{
@@ -44,25 +37,25 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_d3ie0")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_jdx71")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_bkei8")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_bm8sh")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_s65jp")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_jirat")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_mupqb")
+"texture": null
 }],
 "loop": true,
 "name": &"run",
