@@ -3,7 +3,7 @@ extends Humano
 @onready var parado = $Parado;
 @onready var arrastrado = $Arrastrado
 @onready var anim := $Animacion
-var  raycastLong = 11.5
+var  raycastLong = 22.5
 
 var blend = 0.5
 var agarrado = false
