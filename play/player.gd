@@ -17,8 +17,10 @@ func _physics_process(delta):
 	if agarrado == false and arrastrado.disabled == true:
 		if is_on_floor():
 			direccion = Humano.inputTeclasLeftRight()
+		print(direccion)
 		velocity.x = direccion * speed
 		velocity.y += gravity
+		agacharse()
 		if direccion != 0 and is_on_floor():
 			direccionSprite()
 			sprint()
@@ -30,7 +32,17 @@ func _physics_process(delta):
 		velocity.x = 0
 		velocity.y = 0
 		direccionSprite()
-		saltoAgarrado()
+		subirAgarrado()
+	if agarrado == false and arrastrado.disabled == false:
+		if is_on_floor():
+			direccion = Humano.inputTeclasLeftRight()
+		velocity.x = direccion * speed
+		velocity.y += gravity
+		agacharse()
+		if direccion != 0 and is_on_floor():
+			direccionSprite()
+		elif is_on_floor():
+			iddle()
 	move_and_slide()
 
 func sprint():
@@ -67,18 +79,24 @@ func agacharse():
 		anim.play("agachado")
 		parado.disabled = true
 		arrastrado.disabled = false
-	elif Input.is_action_just_released("crouch"):
+	elif Input.is_action_just_released("crouch") and comprobarEspacio() == false:
 		anim.play("levantarse")
 		parado.disabled = false
 		arrastrado.disabled = true
+	else:
+		pass
 
-func saltoAgarrado():
+func comprobarEspacio():
+	return $levantar.is_colliding()
+
+func subirAgarrado():
 	if Input.is_action_just_pressed("jump"):
-		anim.play("saltar")
-		velocity.y -= jump
+		anim.play("escalar")
+		for i in range(10):
+			velocity.y += -speed
+			move_and_slide()
 		agarrado = false
 		arrastrado.disabled = true
-
 
 func salto():
 	if Input.is_action_just_pressed("jump"):
@@ -95,6 +113,8 @@ func agarrarse():
 				if Input.is_action_pressed("agarrarse"):
 					anim.play("agarrado")
 					agarrado = true
+				elif Input.is_action_just_pressed("agarrarse"):
+					anim.play("escalar")
 				elif Input.is_action_just_released("agarrarse"):
 					agarrado = false
 		else:
